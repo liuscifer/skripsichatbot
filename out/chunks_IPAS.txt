@@ -1,0 +1,1627 @@
+CH0001
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P1']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Amalia Fitri Ghaniem, dkk.
+--------------------------------------------------------------------------------
+CH0002
+SECTION: CONCEPT
+HEADINGS: ['SD KELAS V', 'KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI', 'BADAN STANDAR, KURIKULUM, DAN ASESMEN PENDIDIKAN', 'PUSAT PERBUKUAN', 'Alam dan Sosial', 'Alam dan Sosial', 'Alam dan Sosial', 'Ilmu', 'Ilmu Peng', 'engetahuan', 'tahuan', 'Ilmu Pengetahuan']
+BLOCK_IDS: ['P14']
+CUE_PATTERNS: ['PROMPT_INTRO']
+CATEGORIES: ['KONSEP']
+CONTENT:
+ii
+Hak Cipta pada Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi
+Republik Indonesia.
+Dilindungi Undang-Undang.
+Disclaimer: Buku ini disiapkan oleh Pemerintah dalam rangka pemenuhan kebutuhan buku
+pendidikan yang bermutu, murah, dan merata sesuai dengan amanat dalam UU No. 3 Tahun
+2017. Buku ini digunakan secara terbatas pada Sekolah Penggerak. Buku ini disusun dan
+ditelaah oleh berbagai pihak di bawah koordinasi Kementerian Pendidikan, Kebudayaan,
+Riset dan Teknologi. Buku ini merupakan dokumen hidup yang senantiasa diperbaiki,
+diperbaharui, dan dimutakhirkan sesuai dengan dinamika kebutuhan dan perubahan
+zaman. Masukan dari berbagai kalangan yang dialamatkan kepada penulis atau melalui
+alamat surel buku@kemdikbud.go.id diharapkan dapat meningkatkan kualitas buku ini.
+--------------------------------------------------------------------------------
+CH0003
+SECTION: CONCEPT
+HEADINGS: ['Ilmu Pengetahuan Alam dan Sosial', 'untuk SD Kelas V', 'Penulis', 'Amalia Fitri Ghaniem', 'Anggayudha A. Rasa', 'Ati H. Oktora', 'Miranda Yasella']
+BLOCK_IDS: ['P22']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Penelaah
+Petrus Tumijan P.
+--------------------------------------------------------------------------------
+CH0004
+SECTION: CONCEPT
+HEADINGS: ['Fitriyawati Gojali', 'Penyelia/Penyelaras', 'Supriyatno', 'E. Oos M. Anwas', 'Maharani Prananingrum', 'Ilustrator', 'Sandi S. Munawar', 'Dikka Dwiyanti', 'Penyunting', 'Dwi Pajar Ratriningsih', 'Penata Letak (Desainer)', 'Adityo Bayuaji', 'Penerbit', 'Pusat Perbukuan', 'Badan Standar, Kurikulum dan Asesmen Pendidikan', 'Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi', 'Komplek Kemdikbudristek Jalan RS. Fatmawati, Cipete, Jakarta Selatan', 'https://buku.kemdikbud.go.id', 'Cetakan pertama, 2021', 'ISBN 978-602-244-373-5 (no.jil.lengkap)']
+BLOCK_IDS: ['P43']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+978-602-244-681-1 (jil.5)
+Isi buku ini menggunakan huruf Mulish, 12pt., Vernon Adams.
+xii, 252 hlm.: 21 x 29,7 cm.
+--------------------------------------------------------------------------------
+CH0005
+SECTION: CONCEPT
+HEADINGS: ['iii', 'Kata Pengantar']
+BLOCK_IDS: ['P46', 'P47', 'P48', 'P49', 'P50', 'P51', 'P52', 'P53']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'DEFINITION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'CAUSE_EFFECT']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP', 'KONSEP', 'KONSEP', 'KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+Pusat Perbukuan; Badan Standar, Kurikulum, dan Asesmen Pendidikan;
+Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi sesuai tugas dan
+fungsinya mengembangkan kurikulum yang mengusung semangat merdeka
+belajar mulai dari satuan Pendidikan Anak Usia Dini, Pendidikan Dasar, dan
+Pendidikan Menengah. Kurikulum ini memberikan keleluasaan bagi satuan
+pendidikan dalam mengembangkan potensi yang dimiliki oleh peserta didik.
+Untuk mendukung pelaksanaan kurikulum tersebut, sesuai Undang-Undang
+Nomor 3 tahun 2017 tentang Sistem Perbukuan, pemerintah dalam hal ini Pusat
+Perbukuan memiliki tugas untuk menyiapkan Buku Teks Utama.
+Buku teks ini merupakan salah satu sumber belajar utama untuk digunakan
+pada satuan pendidikan. Adapun acuan penyusunan buku adalah Keputusan
+Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 958/P/2020
+tentang Capaian Pembelajaran pada Pendidikan Anak Usia Dini, Pendidikan
+Dasar, dan Pendidikan Menengah. Sajian buku dirancang dalam bentuk
+berbagai aktivitas pembelajaran untuk mencapai kompetensi dalam Capaian
+Pembelajaran tersebut. Penggunaan buku teks ini dilakukan secara bertahap
+pada Sekolah Penggerak, sesuai dengan Keputusan Menteri Pendidikan dan
+Kebudayaan Nomor 162/M/2021 tentang Program Sekolah Penggerak.
+Sebagai dokumen hidup, buku ini tentunya dapat diperbaiki dan
+disesuaikan dengan kebutuhan. Oleh karena itu, saran-saran dan masukan
+dari para guru, peserta didik, orang tua, dan masyarakat sangat dibutuhkan
+untuk penyempurnaan buku teks ini. Pada kesempatan ini, Pusat Perbukuan
+mengucapkan terima kasih kepada semua pihak yang telah terlibat dalam
+penyusunan buku ini mulai dari penulis, penelaah, penyunting, ilustrator,
+desainer, dan pihak terkait lainnya yang tidak dapat disebutkan satu per satu.
+Semoga buku ini dapat bermanfaat khususnya bagi peserta didik dan guru
+dalam meningkatkan mutu pembelajaran.
+--------------------------------------------------------------------------------
+CH0006
+SECTION: CONCEPT
+HEADINGS: ['Jakarta, Oktober 2021', 'Plt. Kepala Pusat,', 'Supriyatno', 'NIP 19680405 198812 1 001', 'iv']
+BLOCK_IDS: ['P59']
+CUE_PATTERNS: ['PROMPT_INTRO']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Prakata
+Segala puji dan syukur kita panjatkan kepada Tuhan YME karena atas rahmat dan
+karunia-Nya Buku Panduan Guru Ilmu Pengetahuan Alam dan Sosial (IPAS)
+untuk SD kelas V ini dapat diselesaikan. Dalam proses penyusunan buku ini,
+--------------------------------------------------------------------------------
+CH0007
+SECTION: CONCEPT
+HEADINGS: ['penulis ingin mengucapkan terima kasih kepada:']
+BLOCK_IDS: ['P61', 'P62', 'P63', 'P64', 'P65']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+•
+Ibu Maharani Prananingrum dari Puskurbuk yang sedari awal mengarahkan,
+memfasilitasi, mendampingi, dan memotivasi penulis menyelesaikan buku
+ini.
+•
+Bapak Petrus Tumijan dan Ibu Fitriyawati Gojali atas telaah kritis-konstruktif
+yang telah diberikan selama proses penerbitan buku ini.
+•
+Tim pengolah naskah yang turut berkontribusi dalam pembuatan buku ini.
+Tantangan mempelajari bidang keilmuan IPAS senantiasa berkembang dari
+waktu ke waktu yang tentunya memengaruhi cara belajar peserta didik. Buku ini
+--------------------------------------------------------------------------------
+CH0008
+SECTION: CONCEPT
+HEADINGS: ['mengelaborasikan pemahaman-pemahaman esensial dengan ragam aktivitas']
+BLOCK_IDS: ['P67', 'P68']
+CUE_PATTERNS: ['CAUSE_EFFECT', 'CAUSE_EFFECT']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+yang diharapkan mampu menstimulus keingintahuan peserta didik terhadap
+topik-topik seputar fenomena alam dan sosial di sekitarnya sehingga peserta
+didik termotivasi untuk belajar lebih lanjut secara mandiri. Semoga buku ini
+dapat memberikan kontribusi yang nyata dalam membantu peserta didik
+mencapai kompetensinya sehingga berdampak terhadap kemajuan pendidikan
+IPAS tingkat dasar di Indonesia. Penulis menantikan kritik dan masukan yang
+membangun untuk perbaikan buku ini di masa yang akan datang.
+--------------------------------------------------------------------------------
+CH0009
+SECTION: CONCEPT
+HEADINGS: ['Jakarta, Oktober 2021', 'Tim Penulis', 'v', 'DAFTAR ISI', 'Kata Pengantar ....................................................................................................................................iii', 'Prakata ...................................................................................................................................................iv', 'Daftar Isi .................................................................................................................................................v', 'Petunjuk Penggunaan Buku ...........................................................................................................ix', 'Bab 1- Melihat karena Cahaya, Mendengar karena Bunyi ................................................1', 'Topik A: Cahaya dan Sifatnya .................................................................................................2', 'Topik B: Melihat karena Cahaya .............................................................................................11', 'Topik C: Bunyi dan Sifatnya .....................................................................................................19', 'Topik D: Mendengar karena Bunyi ........................................................................................29', 'Proyek Belajar ...............................................................................................................................35', 'Uji Pemahaman ............................................................................................................................39', 'Bab 2- Harmoni dalam Ekosistem ................................................................................................41', 'Topik A: Memakan dan Dimakan ...........................................................................................42', 'Topik B: Transfer Energi Antarmakhluk Hidup ..................................................................56', 'Topik C: Ekosistem yang Harmonis .......................................................................................62', 'Proyek Belajar ...............................................................................................................................71', 'Uji Pemahaman ............................................................................................................................74', 'Bab 3- Magnet, Listrik, dan Teknologi untuk Kehidupan ......................................................79', 'Topik A: Apa dan Untuk Apa Magnet Diciptakan?..........................................................80', 'Topik B: Bagaimana Cara Mendapatkan Energi Listrik? ...............................................87', 'Topik C: Teknologi untuk Kehidupan .....................................................................................95', 'vi', 'Proyek Belajar ...............................................................................................................................101', 'Uji Pemahaman ............................................................................................................................104', 'Bab 4- Ayo Berkenalan dengan Bumi Kita ................................................................................107', 'Topik A: Ada Apa Saja di Bumi Kita? ....................................................................................108', 'Topik B:Mengapa Bentuk Permukaan Bumi Berubah-ubah? ......................................115', 'Topik C: Bagaimana Bumi Kita Berubah? ...........................................................................120', 'Proyek Belajar ...............................................................................................................................125', 'Uji Pemahaman ...........................................................................................................................128', 'Bab 5- Bagaimana Kita Hidup dan Bertumbuh .......................................................................129', 'Topik A: Bagaimana Bernapas Membantuku Melakukan Aktivitas', 'Sehari-hari? ....................................................................................................................................130', 'Topik B: Mengapa Kita Perlu Makan dan Minum? ...........................................................140', 'Topik C: Bagaimana Aku Tumbuh Besar? ..........................................................................149', 'Proyek Belajar ...............................................................................................................................157', 'Uji Pemahaman ............................................................................................................................160', 'Bab 6- Indonesiaku Kaya Raya ......................................................................................................161', 'Topik A: Bagaimana Bentuk Indonesiaku? .........................................................................162', 'Topik B: Indonesiaku Kaya Hayatinya ..................................................................................170', 'Topik C: Indonesiaku Kaya Alamnya ....................................................................................178', 'Proyek Belajar ...............................................................................................................................186', 'Uji Pemahaman ............................................................................................................................189', 'vii', 'Bab 7- Daerahku Kebanggaanku ..................................................................................................191', 'Topik A: Seperti Apakah Budaya Daerahku? ....................................................................192', 'Topik B: Kondisi Perekonomian di Daerahku .....................................................................199', 'Topik C: Wah, Ternyata Daerahku Luar Biasa! .................................................................205', 'Proyek Belajar ...............................................................................................................................211', 'Uji Pemahaman ............................................................................................................................214', 'Bab 8- Bumiku Sayang, Bumiku Malang ....................................................................................215', 'Topik A: Bumi Berubah ..............................................................................................................216', 'Topik B: Oh, Lingkungan Jadi Rusak .....................................................................................222', 'Topik C: Permasalahan Lingkungan Mengancam Kehidupan ....................................228', 'Proyek Belajar ...............................................................................................................................234', 'Uji Pemahaman ............................................................................................................................236', 'Lampiran .........................................................................................................................................264', 'Daftar Pustaka .....................................................................................................................................237', 'Profil Penulis .........................................................................................................................................243', 'Profil Penelaah .....................................................................................................................................248', 'Profil Ilustrator ......................................................................................................................................249', 'Profil Penyunting .................................................................................................................................251', 'Profil Penata Letak (Desainer) .......................................................................................................252', 'viii', 'Buku Panduan Guru SD/MI Kelas V', 'ix']
+BLOCK_IDS: ['P139', 'P140']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+Petunjuk Penggunaan Buku Siswa
+Mempelajari Ilmu Pengetahuan Alam dan Sosial (IPAS) artinya kita sedang
+mengamati lebih cermat hal-hal yang terjadi di sekeliling kita, setiap hari. Berbagai
+kegiatan di buku ini mengajak kita membuka wawasan dan menyelami lebih banyak
+informasi tentang diri kita, orang lain di lingkungan sekitar, juga alam beserta flora
+dan faunanya. Tak hanya sekedar tahu, tetapi kita juga diingatkan untuk selalu
+menjaganya dengan berbagai cara.
+Buku ini mengemas kegiatan belajar dengan cara yang menyenangkan. Proses
+mendapatkan pengetahuan dilakukan lewat berbagai percobaan, diskusi, atau
+membaca. Hal tersebut bertujuan agar terbangun pula daya telisik, kemampuan
+analisis, serta kecakapan komunikasi yang semakin baik.
+--------------------------------------------------------------------------------
+CH0010
+SECTION: CONCEPT
+HEADINGS: ['Cover Bab', 'Berisi:', '1. Gambar yang berhubungan dengan aplikasi konsep', 'bab yang dipelajari.', '2. Narasi pembuka bab.', '3. Tujuan pembelajaran bab.', 'Topik\nDalam setiap bab kita akan belajar beberapa topik. Di awal', 'pembuka topik, kalian akan menemukan:', '1. Cerita dan narasi pembuka yang berkaitan dengan', 'topik yang akan dipelajari.', '2. Pertanyaan kunci yang akan menjadi fokus di bab ini.']
+BLOCK_IDS: ['P152']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+x
+Dalam setiap topik kalian akan melakukan berbagai macam aktivitas yang seru!
+--------------------------------------------------------------------------------
+CH0011
+SECTION: CONCEPT
+HEADINGS: ['Di antaranya:', 'Kegiatan eksplorasi untuk mencari tahu,']
+BLOCK_IDS: ['P155']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+mengamati, melakukan eksperimen IPA,
+mewawancarai, dan masih banyak lagi.
+--------------------------------------------------------------------------------
+CH0012
+SECTION: CONCEPT
+HEADINGS: ['Kegiatan kelompok yang menekankan pada', 'kegiatan diskusi, kolaborasi, dan komunikasi']
+BLOCK_IDS: ['P158']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+antarteman. Belajar bersama tentu lebih
+asyik, bukan?
+--------------------------------------------------------------------------------
+CH0013
+SECTION: CONCEPT
+HEADINGS: ['Melakukan refleksi setiap belajar membantu']
+BLOCK_IDS: ['P160', 'P161']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+kalian mengaitkan hal yang sudah dipelajari
+dengan kehidupan sehari-hari.
+Bagian ini untuk kalian baca agar semakin
+memahami materi yang sedang dipelajari.
+--------------------------------------------------------------------------------
+CH0014
+SECTION: CONCEPT
+HEADINGS: ['Butuh']
+BLOCK_IDS: ['P163']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+tantangan
+lebih?
+--------------------------------------------------------------------------------
+CH0015
+SECTION: CONCEPT
+HEADINGS: ['Buku', 'ini']
+BLOCK_IDS: ['P166']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+menyediakan berbagai macam tantangan
+yang bisa kalian pilih.
+--------------------------------------------------------------------------------
+CH0016
+SECTION: CONCEPT
+HEADINGS: ['Yuk, ulas kembali hal-hal']
+BLOCK_IDS: ['P168']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+penting yang sudah dipelajari
+sebelum lanjut ke topik baru.
+--------------------------------------------------------------------------------
+CH0017
+SECTION: CONCEPT
+HEADINGS: ['Ini bagian paling seru! Kalian akan diberikan', 'beraneka macam proyek menarik pada', 'setiap babnya. Tanpa disadari, kalian akan', 'menggunakan konsep yang telah dipelajari', 'dalam satu bab untuk membuat produk']
+BLOCK_IDS: ['P174']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+tertentu. Proyek ini juga akan mengasah
+kreativitas dan kemandirianmu.
+--------------------------------------------------------------------------------
+CH0018
+SECTION: CONCEPT
+HEADINGS: ['Pertanyaan-pertanyaan di uji pemahaman']
+BLOCK_IDS: ['P176']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+akan membantu kalian mengembangkan
+kemampuan berpikir tingkat tinggi.
+--------------------------------------------------------------------------------
+CH0019
+SECTION: CONCEPT
+HEADINGS: ['Jika kalian menemukan tanda ini, mampirlah', 'sejenak dan pelajari arti dari kosakata baru', 'yang ditemukan. Tentunya akan ada banyak', 'kosakata baru yang berkaitan dengan IPA\ndan IPS di buku ini.', 'Belajar Lebih Lanjut', 'Mari Refleksikan\nApa yang Sudah Aku Pelajari?', 'Proyek Belajar', 'Kosakata Baru', 'Mari Mencoba', 'Lakukan Bersama', 'Memilih Tantangan', 'xi', 'Cara Kalian Belajar Menggunakan Buku Ini', '1. Bacalah doa setiap akan memulai belajar!', '2. Bacalah judul dan narasi pembuka pada setiap babnya!', '3. Cobalah mengingat pertanyaan esensial selama belajar!']
+BLOCK_IDS: ['P193']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+4. Lakukan berbagai aktivitas dalam setiap bab dengan penuh semangat!
+5. Refleksikan setiap hal yang telah kalian pelajari di akhir setiap topik!
+6. Tuliskan hasil belajar kalian pada buku tulis untuk mengikat ilmu yang
+didapat!
+--------------------------------------------------------------------------------
+CH0020
+SECTION: CONCEPT
+HEADINGS: ['7. Akhiri selalu kegiatan belajar kalian dengan doa.', 'xii', 'Sumber: freepik.com/chokniti', 'KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET,', 'DAN TEKNOLOGI REPUBLIK INDONESIA', 'Ilmu Pengetahuan Alam dan Sosial']
+BLOCK_IDS: ['P200']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+untuk SD Kelas V
+Penulis: Amalia Fitri Ghaniem, dkk.
+--------------------------------------------------------------------------------
+CH0021
+SECTION: CONCEPT
+HEADINGS: ['ISBN', '978-602-244-681-1 (jil.5)', 'BAB 1', 'BAB 1', 'Melihat karena Cahaya,', 'Melihat karena Cahaya,', 'Mendengar karena Bunyi']
+BLOCK_IDS: ['P208']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Mendengar karena Bunyi
+Festival budaya merupakan acara yang sangat menarik. Mata dan telinga kita
+dimanjakan dengan pertunjukan budaya dan musik tradisional. Semuanya bisa
+dinikmati karena kita bisa melihat dan mendengar. Oleh karena itu, bersyukurlah
+selalu kepada Tuhan. Tahukah kalian bahwa manusia membutuhkan cahaya
+untuk melihat? Adapun telinga bisa mendengar karena menangkap bunyi. Lalu,
+bagaimana proses melihat dan mendengar dapat terjadi? Bagaimana pula
+cahaya dan bunyi berperan dalam proses ini? Yuk, kita pelajari proses melihat
+dan mendengar pada bab ini!
+--------------------------------------------------------------------------------
+CH0022
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P209', 'P210', 'P211']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+Tujuan Pembelajaran
+1.
+Menjelaskan sifat-sifat bunyi dan cahaya melalui percobaan sederhana.
+2.
+Mendemonstrasikan bagaimana sistem pendengaran dan penglihatan
+manusia bekerja.
+2
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+--------------------------------------------------------------------------------
+CH0023
+SECTION: CONCEPT
+HEADINGS: ['Topik A: Cahaya dan Sifatnya']
+BLOCK_IDS: ['P213', 'P214']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION', 'EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI', 'EVALUASI']
+CONTENT:
+Pertanyaan Esensial
+1.
+Bagaimana cahaya merambat?
+2.
+Mengapa ada bayangan? Apa yang memengaruhi bentuk bayangan?
+3.
+Mengapa kita bisa melihat bayangan kita di cermin?
+4.
+Bagaimana pelangi terbentuk?
+Kolam renangnya
+terlihat dangkal, ya?
+--------------------------------------------------------------------------------
+CH0024
+SECTION: CONCEPT
+HEADINGS: ['Kamu tahu tidak,', 'kolam renang itu selalu terlihat']
+BLOCK_IDS: ['P217']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+lebih dangkal
+dari aslinya, loh!
+--------------------------------------------------------------------------------
+CH0025
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P218']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Mengapa
+bisa begitu ya?
+Dalam kehidupan sehari-hari, kita tidak lepas dari yang namanya cahaya.
+Bahkan, kalian bisa melihat karena adanya cahaya. Kolam renang terlihat lebih
+dangkal karena ada pengaruh dari sifat cahaya. Yuk, kita pelajari bersama sifat-
+sifat cahaya!
+--------------------------------------------------------------------------------
+CH0026
+SECTION: CONCEPT
+HEADINGS: ['3', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi', 'Mencoba menjadi Ilmuwan dengan Melakukan Percobaan']
+BLOCK_IDS: ['P222']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+tentang Sifat-sifat Cahaya
+Di kelas 5 ini, kalian akan mencoba hal baru. Biasanya, kalian melakukan
+percobaan dengan mengikuti instruksi yang ada, bukan? Sekarang, kalian
+akan mendesain sendiri percobaan untuk melihat sifat-sifat cahaya.
+Perhatikan perintah berikut.
+1.
+--------------------------------------------------------------------------------
+CH0027
+SECTION: CONCEPT
+HEADINGS: ['Mempelajari sifat cahaya']
+BLOCK_IDS: ['P224', 'P225', 'P226']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+a. Guru kalian akan memandu menentukan tema masing-
+masing kelompok.
+b.
+Baca dan pelajari materi tentang “Sifat-sifat Cahaya”.
+2.
+Berdiskusi dan mendesain percobaan
+a.
+Berkumpullah dengan kelompok yang sudah ditentukan.
+b. Diskusikan dalam kelompok mengenai percobaan yang akan
+kalian buat.
+c.
+--------------------------------------------------------------------------------
+CH0028
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P227']
+CUE_PATTERNS: ['IMPERATIVE_TASK']
+CATEGORIES: ['INSTRUKSI']
+CONTENT:
+Tentukan alat dan bahan yang kalian butuhkan. Pergunakan
+peralatan sederhana yang mudah ditemukan.
+d.
+Diskusikan ide percobaan yang akan dibuat dengan guru kalian.
+Pastikan ide tersebut disetujui oleh guru kalian.
+e.
+Tuliskan desain percobaan yang sudah disetujui dalam buku tugas.
+3.
+--------------------------------------------------------------------------------
+CH0029
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P228']
+CUE_PATTERNS: ['NARRATIVE_SEQUENCE']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Membuat perangkat percobaan
+a.
+Siapkan alat dan bahan yang kalian butuhkan.
+b.
+Siapkan percobaan sesuai desain yang sudah dibuat.
+c.
+Lakukan uji coba terlebih dahulu untuk melihat apakah percobaan
+tersebut berhasil atau tidak. Jika tidak berhasil, diskusikan dengan
+guru kalian.
+d. Jika sudah berhasil, buat judul dan langkah percobaan dalam
+selembar kertas untuk 1 kelompok. Kertas ini akan dipakai untuk
+kelompok lain nantinya.
+--------------------------------------------------------------------------------
+CH0030
+SECTION: ACTIVITY
+HEADINGS: ['Mari Mencoba']
+BLOCK_IDS: ['P230', 'P231', 'P232']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'EVALUATIVE_QUESTION', 'EVALUATIVE_QUESTION']
+CATEGORIES: ['INSTRUKSI', 'INSTRUKSI', 'INSTRUKSI']
+CONTENT:
+4
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+Sifat-sifat Cahaya
+Masih ingatkah kalian tentang sumber energi cahaya terbesar di Bumi? Ya,
+Matahari! Cahaya Matahari merambat dari jarak yang sangat jauh untuk sampai
+ke Bumi. Cahaya tidak membutuhkan media seperti udara, air, atau benda padat
+untuk bergerak. Matahari bukan satu-satunya sumber cahaya. Lampu dan api
+juga menghasilkan energi cahaya. Yuk, kita pelajari bersama-sama sifat cahaya!
+1. Cahaya merambat lurus
+Dari sumbernya, cahaya merambat atau bergerak lurus. Kalian bisa melihat
+cahaya Matahari merambat lurus saat melewati celah-celah kecil seperti gambar
+di bawah. Di ruangan yang tertutup dinding, cahaya hanya bisa masuk melalui
+celah yang ada. Bisakah kalian melihat rambatan cahaya yang lurus?
+--------------------------------------------------------------------------------
+CH0031
+SECTION: CONCEPT
+HEADINGS: ['Sumber: freepik.com/rrvachov']
+BLOCK_IDS: ['P234', 'P235', 'P236']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'CAUSE_EFFECT', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+Sumber: freepik.com/denisik11
+Gambar 1.1 Contoh peristiwa cahaya merambat lurus.
+2. Cahaya bisa dipantulkan
+Kita bisa melihat karena cahaya memantul dari benda ke mata kita. Jika tidak
+ada cahaya maka tidak ada pantulan yang diterima oleh mata. Ketika kita
+bercermin, cahaya dari lampu merambat ke cermin. Lalu, cahaya tersebut
+dipantulkan ke mata kita. Akhirnya, kita bisa melihat diri kita serta apa yang
+ada di belakang kita.
+Gambar 1.2 Contoh peristiwa cahaya bisa dipantulkan.
+--------------------------------------------------------------------------------
+CH0032
+SECTION: CONCEPT
+HEADINGS: ['5', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi']
+BLOCK_IDS: ['P239']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+3. Cahaya bisa menembus benda bening
+Kita bisa melihat jelas melalui kaca jendela. Namun, kita tidak bisa melihat apa
+yang ada di balik tembok. Mengapa demikian? Perhatikan gambar di bawah ini!
+Apakah kalian bisa melihat perbedaan ketiga benda pada gambar tersebut?
+Apakah di sekeliling kalian ada benda-benda bening, buram, dan gelap?
+--------------------------------------------------------------------------------
+CH0033
+SECTION: CONCEPT
+HEADINGS: ['Benda gelap', '(Tidak tembus cahaya)', 'Benda buram', '(Tidak bening)', 'Benda bening', '(Transparan)', 'Tembus cahaya, nyata, jelas']
+BLOCK_IDS: ['P247', 'P248', 'P249']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'DEFINITION', 'CAUSE_EFFECT']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+Gambar 1.3 Contoh benda bening, buram, dan gelap.
+Sumber: freepik/denisik11
+Cahaya bisa menembus benda-benda bening atau disebut juga transparan.
+Oleh karena itu, kita bisa melihat dengan jelas benda-benda tertentu melalui
+benda-benda transparan, seperti kaca. Sebaliknya, cahaya tidak dapat
+menembus benda-benda gelap seperti contohnya tembok. Ada pula benda
+yang sedikit ditembus cahaya atau buram. Pada benda ini, cahaya hanya bisa
+menembus sebagian. Oleh karena itu, kita hanya bisa melihat benda dengan
+samar.
+--------------------------------------------------------------------------------
+CH0034
+SECTION: CONCEPT
+HEADINGS: ['Berdasarkan sifatnya terhadap cahaya, benda terbagi menjadi:', 'Semua cahaya bisa menembus', 'benda', 'Hanya sebagian cahaya yang bisa', 'ditembus', 'Sama sekali tidak bisa ditembus', 'cahaya', 'Bening', 'Buram']
+BLOCK_IDS: ['P259']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Gelap
+Gambar 1.4 Jenis benda berdasarkan sifatnya terhadap cahaya.
+--------------------------------------------------------------------------------
+CH0035
+SECTION: GLOSSARY
+HEADINGS: ['buram: tidak bening', 'transparan: tembus cahaya; nyata; jelas', 'Kosakata Baru']
+BLOCK_IDS: ['P263', 'P264', 'P265']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'CAUSE_EFFECT', 'EVALUATIVE_QUESTION']
+CATEGORIES: ['GLOSARIUM', 'GLOSARIUM', 'GLOSARIUM']
+CONTENT:
+6
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+4. Cahaya bisa dibiaskan
+Selain bisa menembus benda bening, cahaya juga dapat dibiaskan atau
+dibelokkan. Ketika menembus media yang berbeda, misal dari udara menembus
+ke air, cahaya bisa dibiaskan atau dibelokkan. Hal inilah yang membuat Aga,
+Ian, dan Banu melihat kolam renang lebih dangkal dari seharusnya.
+Gambar 1.5 Contoh peristiwa pembiasan cahaya.
+Ketika kalian mengamati ikan dalam kolam, posisi ikan yang terlihat oleh
+mata bukanlah posisi aslinya. Hal ini terjadi karena cahaya dibiaskan ketika
+menembus ke air. Peristiwa ini juga yang menyebabkan sendok terlihat bengkok
+ketika sebagian sendok dicelupkan dalam air.
+5. Cahaya bisa diuraikan
+Tahukah kalian bahwa cahaya putih merupakan gabungan dari berbagai macam
+warna? Cahaya Matahari merupakan salah satu contoh cahaya putih. Cahaya
+ini bisa diuraikan menjadi warna pelangi menggunakan prisma transparan.
+Cahaya yang menembus prisma akan dibiaskan dan terurai menjadi warna-
+warna pelangi.
+--------------------------------------------------------------------------------
+CH0036
+SECTION: CONCEPT
+HEADINGS: ['Merah', 'Jingga', 'Kuning', 'Hijau', 'Biru', 'Nila', 'Ungu']
+BLOCK_IDS: ['P273']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Sumber: freepik.com/9023173
+Gambar 1.6 Cahaya putih dibiaskan dan terurai menjadi warna pelangi.
+--------------------------------------------------------------------------------
+CH0037
+SECTION: GLOSSARY
+HEADINGS: []
+BLOCK_IDS: ['P274']
+CUE_PATTERNS: ['GLOSSARY_BOX']
+CATEGORIES: ['GLOSARIUM']
+CONTENT:
+Sumber: freepik.com/9023173
+bias: belokan arah karena menembus benda bening yang lain
+--------------------------------------------------------------------------------
+CH0038
+SECTION: CONCEPT
+HEADINGS: ['Kosakata Baru', '7', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi', 'Pernahkah kalian melihat pelangi? Kapan', 'pelangi terbentuk di langit? Pelangi terjadi ketika', 'hujan diiringi dengan sinar Matahari. Air hujan', 'bersifat seperti prisma yang akan membiaskan', 'dan menguraikan cahaya Matahari menjadi warna']
+BLOCK_IDS: ['P283']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+pelangi. Kalian juga bisa membuat pelangi sendiri
+dengan bantuan kaca dan air.
+--------------------------------------------------------------------------------
+CH0039
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P284']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+6. Ketika cahaya dihalangi akan terbentuk bayangan
+Cahaya merambat lurus dan tidak dapat berbelok. Ketika cahaya mengenai
+suatu benda maka cahaya yang terhalang benda akan membentuk bayangan.
+Perhatikan kedua gambar di bawah ini.
+Mengapa bola tenis bisa memiliki bentuk bayangan yang berbeda?
+--------------------------------------------------------------------------------
+CH0040
+SECTION: CONCEPT
+HEADINGS: ['Sumber: freepik.com/gorynvd']
+BLOCK_IDS: ['P286']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Sumber: freepik.com/master1305
+Gambar 1.8 Benda yang sama dapat memiliki bentuk bayangan yang berbeda
+Sumber: freepik.com/gorynvd; freepik.com/master1305.
+--------------------------------------------------------------------------------
+CH0041
+SECTION: ACTIVITY
+HEADINGS: ['Lakukan Bersama']
+BLOCK_IDS: ['P288', 'P289']
+CUE_PATTERNS: ['PROMPT_INTRO', 'FACT_EXPLANATION']
+CATEGORIES: ['INSTRUKSI', 'INSTRUKSI']
+CONTENT:
+Menebak Sifat Cahaya
+Sekarang, mari kita saling melakukan dan mengamati percobaan mengenai
+sifat-sifat cahaya dari kelompok lain.
+1.
+Siapkan alat, bahan, serta langkah percobaan dengan rapi untuk dicoba
+oleh teman kalian.
+Gambar 1.7 Penampakan pelangi
+setelah hujan.
+--------------------------------------------------------------------------------
+CH0042
+SECTION: CONCEPT
+HEADINGS: ['Sumber: freepik.com/travnikovstudio']
+BLOCK_IDS: ['P291']
+CUE_PATTERNS: ['NARRATIVE_SEQUENCE']
+CATEGORIES: ['KONSEP']
+CONTENT:
+8
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+2.
+Saat kalian melakukan percobaan yang disiapkan oleh teman kalian, tuliskan
+hasil percobaan tersebut di buku tugas. Kemudian, tebaklah sifat cahaya
+--------------------------------------------------------------------------------
+CH0043
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P292']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+yang sedang dibuktikan oleh teman kalian
+1.
+Bagaimana perasaan kalian setelah mencoba menjadi ilmuwan?
+2.
+Bagaimana perasaan kalian ketika teman kalian berhasil menebak sifat
+cahaya dari percobaan yang kalian siapkan?
+3.
+Apa kesulitan yang kalian hadapi saat melakukan kegiatan ini? Bagaimana
+kalian mengatasinya?
+4.
+Apakah kalian puas terhadap hasilnya? Adakah yang ingin kalian perbaiki
+dari pekerjaan kelompok kalian?
+5.
+Bagaimana cahaya merambat?
+6.
+Mengapa kalian memiliki bayangan? Dan mengapa bayangan tubuh kalian
+dapat berubah-ubah?
+7.
+Mengapa kalian bisa melihat bayangan di cermin?
+8.
+Bagaimana pelangi terbentuk?
+9.
+Apakah sifat cahaya yang paling sering kalian rasakan sehari-hari?
+10. Bagaimana cahaya berperan terhadap penglihatan kita?
+--------------------------------------------------------------------------------
+CH0044
+SECTION: EXTENSION
+HEADINGS: ['Belajar Lebih Lanjut']
+BLOCK_IDS: ['P294']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Mengenal Jenis Cermin
+Dalam kehidupan sehari-hari, kalian pasti sering menjumpai cermin. Tahukah
+kalian bahwa ada tiga jenis cermin yang sering digunakan manusia? Yuk kita
+--------------------------------------------------------------------------------
+CH0045
+SECTION: CONCEPT
+HEADINGS: ['pelajari lebih lanjut', '1. Cermin datar', 'Cermin yang biasa kalian pakai disebut', 'dengan cermin datar. Saat kita berdiri', 'di depan cermin datar, kita bisa melihat']
+BLOCK_IDS: ['P300']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+pantulan yang sama persis ukurannya
+dengan diri kita.
+--------------------------------------------------------------------------------
+CH0046
+SECTION: CONCEPT
+HEADINGS: ['Mari Refleksikan\nGambar 1.9 Cermin datar.', '9', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi', '2. Cermin cembung', 'Pada cermin cembung, bayangan terlihat']
+BLOCK_IDS: ['P306']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+lebih kecil dan jauh. Selain itu, area di
+belakang kalian akan terlihat lebih lebar.
+--------------------------------------------------------------------------------
+CH0047
+SECTION: CONCEPT
+HEADINGS: ['Cermin cembung digunakan untuk kaca', 'spion pada alat transportasi. Cermin ini', 'juga terpasang di tikungan jalan untuk', 'memberikan', 'informasi', 'kepada']
+BLOCK_IDS: ['P313', 'P314']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+para
+pengemudi yang melewati tempat tersebut.
+3. Cermin cekung
+Pada cermin cekung, kalian akan terlihat lebih besar. Jika kalian bercermin
+dari jauh, kalian akan melihat bayangan yang terbalik. Namun, semakin kalian
+mendekat, bayangan akan kembali tegak dan semakin membesar.
+Gambar 1.11 Bayangan yang terbentuk pada cermin cekung.
+Cermin memiliki permukaan yang rata. Hal ini membuat cahaya memantul
+beraturan, berkilat, dan bayangan yang dihasilkan juga mulus. Namun, jika
+permukaannya tidak rata maka arah pantulan cahaya juga tidak beraturan.
+Gambar 1.10 Cermin cembung.
+--------------------------------------------------------------------------------
+CH0048
+SECTION: CONCEPT
+HEADINGS: ['Sumber: freepik.com/user17007025']
+BLOCK_IDS: ['P316', 'P317']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION', 'EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI', 'EVALUASI']
+CONTENT:
+10
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+Perhatikan pantulan angsa di permukaan air pada gambar berikut. Apakah
+kalian bisa melihat perbedaan bayangan yang dihasilkan jika permukaan air
+semakin tidak beraturan?
+Gambar 1.12 Perbedaan bayangan angsa di permukaan air.
+Cahaya memiliki banyak kegunaan bagi manusia. Lampu merupakan
+salah satu kebutuhan paling mendasar dalam keseharian manusia. Manusia
+dengan akalnya juga telah banyak menciptakan berbagai teknologi dengan
+memanfaatkan cahaya. Saat ini, sinar laser banyak digunakan dalam operasi
+mata. Panas yang dihasilkan dari sinar laser dapat digunakan sebagai alat bantu
+pengganti pisau. Tahukah kalian teknologi lain yang memanfaatkan cahaya?
+1.
+Cahaya merambat lurus dan tidak membutuhkan media untuk merambat.
+2.
+Kita bisa melihat karena cahaya bisa dipantulkan. Benda memantulkan
+cahaya dari sumber cahaya ke mata kita.
+3.
+--------------------------------------------------------------------------------
+CH0049
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P318']
+CUE_PATTERNS: ['EXAMPLE_ILLUSTRATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Cahaya bisa menembus benda bening seperti kaca. Benda-benda
+tembus pandang seperti kain tipis dan kertas minyak, hanya bisa
+ditembus sebagian oleh cahaya.
+4.
+Cahaya tidak bisa menembus benda gelap seperti tembok, kayu, dan
+badan kalian. Cahaya yang terhalangi ini, kemudian akan membentuk
+bayangan.
+5.
+Bentuk bayangan bergantung pada posisi benda, jauh dekatnya sumber
+cahaya terhadap benda dan jenis cermin yang memantulkan cahaya.
+6.
+Jika menembus medium yang berbeda seperti dari udara ke air, cahaya
+akan dibiaskan. Hal ini membuat benda dalam air terlihat lebih dekat
+dibanding aslinya.
+7.
+--------------------------------------------------------------------------------
+CH0050
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P319']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Cahaya juga bisa diuraikan. Pelangi merupakan hasil pembiasan
+cahaya Matahari yang diuraikan oleh air.
+Apa yang Sudah Aku Pelajari?
+--------------------------------------------------------------------------------
+CH0051
+SECTION: CONCEPT
+HEADINGS: ['11', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi', 'Topik B: Melihat karena Cahaya']
+BLOCK_IDS: ['P323']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Pertanyaan Esensial
+1.
+Mengapa kita bisa melihat benda?
+2.
+Bagaimana cara mata kita bekerja?
+Aga, Mia, Dara, Ian, dan Banu sedang bermain di halaman sekolah. Mata Aga
+ditutup kain dan dia harus mencari teman-temannya. Aga tidak bisa melihat
+karena gelap. Sebenarnya, bagaimana mata kita bisa melihat? Mengapa jika
+gelap kita tidak bisa melihat? Yuk, kita pelajari bagaimana mata bisa melihat
+benda!
+--------------------------------------------------------------------------------
+CH0052
+SECTION: CONCEPT
+HEADINGS: ['Mari Mencoba', 'Aku dan Mataku']
+BLOCK_IDS: ['P326', 'P327']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+Alat dan bahan:
+1.
+cermin 1 buah;
+2.
+lembar kerja yang telah disiapkan guru.
+--------------------------------------------------------------------------------
+CH0053
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P328', 'P329', 'P330']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION', 'EVALUATIVE_QUESTION', 'EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI', 'EVALUASI', 'EVALUASI']
+CONTENT:
+Langkah percobaan:
+1.
+Amati mata kalian dalam cermin. Bagian apa saja di mata yang tampak?
+Apakah kalian mengetahui namanya? Tuliskan apa yang kalian ketahui
+pada lembar kerja yang telah dibagikan guru kalian.
+12
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+2.
+Manakah bagian yang menurut kalian berfungsi untuk melindungi mata?
+Coba buatlah prediksi dan tuliskan dalam lembar kerja.
+3.
+Apakah kalian melihat bagian mata yang berwarna hitam pada bagian
+tengah mata kalian? Bagian ini namanya pupil. Cobalah untuk:
+a.
+Pergi ke area yang terang di luar sekolah kalian. Amati bentuk pupil
+ketika berada di tempat terang.
+b.
+Pergi ke tempat yang tidak terlalu terang (atau bisa dengan mematikan
+lampu di kelas kalian). Amati bentuk pupil di mata kalian.
+c.
+Tuliskan hasil pengamatan kalian pada lembar kerja.
+4.
+Ambillah sebuah benda, misalnya buku, pensil, atau benda yang lain. Pegang
+benda tersebut dengan tangan kalian. Dekatkan benda tersebut dengan
+mata kalian. Lalu, perlahan jauhkan sampai batas maksimal tangan kalian.
+Tuliskan apa yang kalian lihat dan rasakan di mata kalian pada lembar kerja.
+5.
+Guru kalian akan memandu untuk kegiatan pembahasan.
+Bagian Mata dan Fungsinya
+Ada bagian-bagian mata yang terlihat oleh kita, namun ada juga yang tidak.
+Apa sajakah bagian-bagian mata tersebut? Yuk, kita pelajari bersama!
+--------------------------------------------------------------------------------
+CH0054
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P331']
+CUE_PATTERNS: ['PROMPT_INTRO']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Bagian Mata yang Terlihat dan Fungsinya
+Perhatikan gambar di bawah ini untuk mengetahui bagian-bagian mata yang
+terlihat oleh kita beserta fungsinya!
+--------------------------------------------------------------------------------
+CH0055
+SECTION: CONCEPT
+HEADINGS: ['Lipatan mata:', 'Kulit yang melindungi', 'bagian', 'depan', 'bola', 'mata. Berfungsi juga', 'untuk', 'membasahi', 'bagian depan mata']
+BLOCK_IDS: ['P341']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+dengan air mata saat
+mengedip.
+--------------------------------------------------------------------------------
+CH0056
+SECTION: CONCEPT
+HEADINGS: ['Bulu mata:', 'Melindungi mata kita dari', 'benda asing seperti debu', 'atau kotoran', 'Alis:', 'Melindungi mata kita dari', 'air atau keringat agar', 'tidak masuk ke dalam', 'mata', 'Pupil:', 'Bagian mata di tengah', 'iris. Merupakan celah', 'tempat masuknya', 'cahaya ke bagian', 'dalam mata']
+BLOCK_IDS: ['P357']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Iris:
+Bagian mata yang berwarna.
+--------------------------------------------------------------------------------
+CH0057
+SECTION: CONCEPT
+HEADINGS: ['Berfungsi untuk mengatur']
+BLOCK_IDS: ['P359']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+jumlah cahaya yang masuk
+ke mata.
+--------------------------------------------------------------------------------
+CH0058
+SECTION: CONCEPT
+HEADINGS: ['Sklera atau selaput putih:', 'Bagian berwarna putih dan keras', 'pada bola mata. Otot-otot yang', 'membuat mata kita bergerak me-', 'nempel pada sklera. Berfungsi']
+BLOCK_IDS: ['P365']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+juga untuk melindungi bagian
+penting dalam mata.
+--------------------------------------------------------------------------------
+CH0059
+SECTION: CONCEPT
+HEADINGS: ['S', 'u', 'm', 'b', 'er', ': f', 're', 'ep', 'i', 'k', '.c', 'o', 'm', '/', 'm', 'as', 'te', 'r1', '30', '5']
+BLOCK_IDS: ['P386']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Gambar 1.13 Bagian-bagian mata.
+--------------------------------------------------------------------------------
+CH0060
+SECTION: CONCEPT
+HEADINGS: ['13', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi']
+BLOCK_IDS: ['P389']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Membesar dan Mengecilnya Pupil
+Tahukah kalian jika pupil bisa membesar dan mengecil? Pupil kita sensitif
+terhadap cahaya. Perhatikan gambar berikut untuk mengetahui lebih lanjut.
+--------------------------------------------------------------------------------
+CH0061
+SECTION: CONCEPT
+HEADINGS: ['Saat kalian berada di tempat', 'yang terang, pupil akan mengecil']
+BLOCK_IDS: ['P392']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+agar cahaya yang masuk dalam
+mata kalian tidak terlalu banyak.
+--------------------------------------------------------------------------------
+CH0062
+SECTION: CONCEPT
+HEADINGS: ['Saat kalian berada di tempat yang', 'gelap, pupil akan membesar untuk']
+BLOCK_IDS: ['P395', 'P396']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+memperbanyak cahaya yang
+masuk ke mata.
+Gambar 1.14 Membesar dan mengecilnya pupil.
+Bagian Dalam Mata dan Fungsinya
+Selain bagian mata luar, ada juga bagian mata dalam. Bagian mata ini juga
+memiliki fungsi yang berperan dalam proses penglihatan kita. Perhatikan
+gambar berikut untuk mengetahui bagian dalam mata beserta fungsinya.
+--------------------------------------------------------------------------------
+CH0063
+SECTION: CONCEPT
+HEADINGS: ['Saraf mata:', 'Saraf ini meneruskan sinyal bayangan']
+BLOCK_IDS: ['P399', 'P400']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'NARRATIVE_SEQUENCE']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+yang ditangkap retina beserta warna dan
+menghubungkan ke bagian khusus di otak.
+Otak kemudian menerjemakan sinyal
+menjadi gambar yang kita lihat.
+--------------------------------------------------------------------------------
+CH0064
+SECTION: CONCEPT
+HEADINGS: ['Retina:', 'Selaput yang terletak paling belakang dan', 'peka terhadap rangsang cahaya. Retina']
+BLOCK_IDS: ['P404']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+menerima cahaya dan menyampaikan
+informasi pada saraf mata.
+--------------------------------------------------------------------------------
+CH0065
+SECTION: CONCEPT
+HEADINGS: ['Kornea:', 'Selaput bening yang melindungi', 'bagian depan mata. Berfungsi seperti']
+BLOCK_IDS: ['P408']
+CUE_PATTERNS: ['DEFINITION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+jendela mata, yaitu tempat masuknya
+cahaya ke dalam mata.
+--------------------------------------------------------------------------------
+CH0066
+SECTION: CONCEPT
+HEADINGS: ['Lensa:', 'Berfungsi memfokuskan', 'dan meneruskan cahaya', 'yang masuk ke mata']
+BLOCK_IDS: ['P413']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+agar jatuh tepat pada
+retina.
+--------------------------------------------------------------------------------
+CH0067
+SECTION: CONCEPT
+HEADINGS: ['Otos siliaris:', 'Otot di dekat lensa berfungsi mengubah']
+BLOCK_IDS: ['P416', 'P417']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+bentuk lensa mata
+Gambar 1.15 Bagian dalam mata beserta fungsinya.
+14
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+--------------------------------------------------------------------------------
+CH0068
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P418']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Lensa Mata
+Saat melihat benda jauh dan dekat, lensa mata akan berubah bentuk. Terlalu
+sering melihat objek dekat atau jauh dapat membuat mata lelah dan kaku. Lensa
+mata memiliki kemampuan menebal dan menipis. Saat melihat benda yang
+mendekat, lensa mata akan menebal. Demikian sebaliknya, saat melihat benda
+yang menjauh, lensa mata akan menipis. Perhatikan gambar di bawah ini.
+Gambar 1.16 Menipis dan menebalnya lensa mata.
+Bagaimana Kita Melihat?
+Perhatikan gambar di bawah ini untuk mengetahui bagaimana proses melihat!
+--------------------------------------------------------------------------------
+CH0069
+SECTION: CONCEPT
+HEADINGS: ['OBJEK NYATA', 'YANG DITANGKAP', 'MATA', '1', '2', '3', '4', '5', 'Gelombang', 'cahaya', 'Bayangan nyata,', 'terbalik, diperkecil', 'Titik fokus', 'di retina', 'Diteruskan', 'ke otak', 'Pupil', 'Kornea', 'Lensa', 'Otak', 'menerjemahkan', 'sinyal yang', 'diterima retina', 'GAMBAR YANG', 'DITERJEMAHKAN', 'ATAU KITA LIHAT']
+BLOCK_IDS: ['P445', 'P446']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+6
+Gambar 1.17 Proses melihat.
+Keterangan:
+1.
+Benda memantulkan cahaya ke arah mata kita.
+2.
+Cahaya pun masuk ke dalam kornea dan dibelokkan. Pupil membuka sebagai jalan
+masuk cahaya.
+--------------------------------------------------------------------------------
+CH0070
+SECTION: ACTIVITY
+HEADINGS: ['15', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi\n3.\nKemudian, lensa mata mengarahkan cahaya sehingga bayangan benda jatuh\npada retina.\n4.\nBayangan benda yang ditangkap oleh retina berbentuk terbalik.\n5.\nUjung-ujung saraf penerima rangsang di retina akan menyampaikan isyarat ini ke\notak. Otak pun merespon dan menerjemahkan bayangan yang diterima.\n6.\nBayangan yang ditangkap dibalikkan kembali oleh otak sehingga kita bisa melihat.', 'Mari Mencoba']
+BLOCK_IDS: ['P450']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['INSTRUKSI']
+CONTENT:
+Membuat Gambar Skema Proses Melihat
+Wah, ternyata melihat itu merupakan proses yang panjang dan rumit ya!
+Sungguh besar ciptaan Tuhan kita, bukan? Agar lebih mengerti bagaimana
+cara mata kita melihat, yuk kita buat gambar skema bagaimana mata melihat!
+Buatlah di buku tugas kalian dengan jelas dan diberi keterangan, ya! Sertakan
+juga nama bagian mata yang kalian gambarkan!
+--------------------------------------------------------------------------------
+CH0071
+SECTION: CONCEPT
+HEADINGS: ['Lakukan Bersama', 'Menjelaskan Skema Cara Mata Melihat']
+BLOCK_IDS: ['P453']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Berkumpullah secara berkelompok. Sebelum melakukan kegiatan, perhatikan
+terlebih dulu instruksi berikut.
+1.
+Kalian akan bergantian dengan teman sekelompok kalian untuk menjelaskan
+skema cara mata melihat yang sudah dibuat.
+2.
+Perhatikan tata cara berikut ini sebelum memulai kegiatan.
+--------------------------------------------------------------------------------
+CH0072
+SECTION: CONCEPT
+HEADINGS: ['Jelaskan', 'Sampaikan', 'Cara mata kita']
+BLOCK_IDS: ['P457']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+melihat dimulai
+dari...
+Saya suka bagian....
+--------------------------------------------------------------------------------
+CH0073
+SECTION: CONCEPT
+HEADINGS: ['dari gambar/penjelasan', 'kamu']
+BLOCK_IDS: ['P460']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+16
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+3.
+Tuliskan juga pendapat tentang penjelasan teman kalian di bukunya.
+4.
+Setelah selesai, coba diskusikan pertanyaan berikut.
+a.
+Apa fungsi dari berkedip dan apa yang terjadi jika kita tidak berkedip?
+b.
+Mengapa saat mata kita terkena kotoran akan keluar air mata?
+c.
+Apakah kita boleh melihat cahaya yang terlalu terang? Mengapa?
+d.
+--------------------------------------------------------------------------------
+CH0074
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P461']
+CUE_PATTERNS: ['IMPERATIVE_TASK']
+CATEGORIES: ['INSTRUKSI']
+CONTENT:
+Berikan contoh aktivitas atau pekerjaan yang membutuhkan perlindungan
+terhadap mata!
+5.
+Tuliskan hasilnya dalam buku tugas.
+--------------------------------------------------------------------------------
+CH0075
+SECTION: EXTENSION
+HEADINGS: ['Mari Refleksikan\n1.\nHal baru apakah yang kalian dapatkan dari topik ini?\n2.\nApa hubungan cahaya dan proses melihat?\n3.\nMengapa kita tetap bisa melihat ketika malam hari?\n4.\nMengapa kita perlu berkedip?\n5.\nInformasi apa yang diberikan oleh mata kita? Jika mata kita tidak berfungsi,\nadakah cara lain untuk mendapatkan informasi ini?\n6.\nApa saja yang tidak bisa kita lakukan jika kita tidak bisa melihat?\n7.\nMenurut kalian cara apa saja yang bisa dilakukan untuk menjaga kesehatan\nmata kita?', 'Belajar Lebih Lanjut']
+BLOCK_IDS: ['P464']
+CUE_PATTERNS: ['DEFINITION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Gangguan Penglihatan pada Manusia
+Gangguan penglihatan pada manusia bisa disebabkan banyak hal. Ada yang
+merupakan bawaan sejak lahir, akibat dari penyakit lain, faktor usia, atau
+kebiasaan yang tidak baik. Beberapa gangguan penglihatan bisa diperbaiki
+dengan menggunakan kacamata khusus atau operasi. Berikut ini beberapa
+gangguan penglihatan pada manusia.
+--------------------------------------------------------------------------------
+CH0076
+SECTION: CONCEPT
+HEADINGS: ['skema: bagan; garis besar; denah', 'Kosakata Baru', '17', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi', 'Rabun jauh', 'Rabun jauh merupakan ketidakmampuan', 'mata melihat benda dalam jarak jauh secara', 'jelas. Penyebabnya bisa perilaku tidak sehat,', 'seperti: membaca sambil tiduran, membaca', 'dengan penerangan minim, terlalu lama', 'melihat layar televisi, komputer, telepon', 'pintar, melihat layar atau buku terlalu dekat,', 'atau kurang mengonsumsi makanan yang']
+BLOCK_IDS: ['P478', 'P479']
+CUE_PATTERNS: ['CAUSE_EFFECT', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+mengandung vitamin A. Gangguan ini
+bisa juga terjadi karena faktor keturunan.
+Penderita rabun jauh dapat dibantu dengan
+menggunakan kacamata minus.
+--------------------------------------------------------------------------------
+CH0077
+SECTION: CONCEPT
+HEADINGS: ['Rabun dekat', 'Rabun dekat merupakan ketidakmampuan', 'mata melihat benda dalam jarak dekat', 'secara jelas. Rabun dekat bisa disebabkan', 'karena faktor usia dan umumnya mulai', 'terjadi pada usia 40 tahun. Disebut juga']
+BLOCK_IDS: ['P486']
+CUE_PATTERNS: ['CAUSE_EFFECT']
+CATEGORIES: ['KONSEP']
+CONTENT:
+dengan mata tua. Namun, rabun dekat bisa
+juga disebabkan karena faktor keturunan.
+--------------------------------------------------------------------------------
+CH0078
+SECTION: CONCEPT
+HEADINGS: ['Gangguan mata ini dapat dibantu dengan', 'menggunakan kacamata rangkap (untuk']
+BLOCK_IDS: ['P489']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+mata tua) dan kacamata plus (untuk rabun
+dekat).
+--------------------------------------------------------------------------------
+CH0079
+SECTION: CONCEPT
+HEADINGS: ['Mata silindris']
+BLOCK_IDS: ['P491']
+CUE_PATTERNS: ['DEFINITION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Mata silindris merupakan kondisi kelainan lengkungan pada kornea
+menyebabkan cahaya yang masuk tidak fokus pada retina. Penyebabnya bisa
+karena kebiasaan buruk, seperti membaca atau menonton televisi dengan posisi
+miring, membaca dan menonton sambil tiduran, atau karena faktor keturunan.
+Gangguan tersebut bisa dibantu dengan penggunaan kacamata silindris.
+--------------------------------------------------------------------------------
+CH0080
+SECTION: CONCEPT
+HEADINGS: ['Gambar 1.20 Penglihatan pada penderita mata silindris']
+BLOCK_IDS: ['P493']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Gambar 1.18 Penglihatan pada
+gangguan rabun jauh.
+--------------------------------------------------------------------------------
+CH0081
+SECTION: CONCEPT
+HEADINGS: ['Gambar 1.19 Penglihatan pada', 'penderita rabun dekat']
+BLOCK_IDS: ['P496']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+18
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+--------------------------------------------------------------------------------
+CH0082
+SECTION: CONCEPT
+HEADINGS: ['Memilih Tantangan']
+BLOCK_IDS: ['P498', 'P499', 'P500']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+Melakukan Wawancara dengan Pengguna Kacamata
+1.
+Cobalah lakukan wawancara terhadap orang-orang di sekitar kalian yang
+menggunakan kacamata minus (rabun jauh), silindris, dan kacamata baca
+(umumnya dimiliki oleh orang tua usia 40 tahun ke atas).
+2.
+Tanyakan kepada mereka mengenai:
+a.
+Sejak kapan mereka menggunakan kacamata;
+b.
+--------------------------------------------------------------------------------
+CH0083
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P501']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Apa yang membuat mereka menggunakan kacamata; dan
+c.
+--------------------------------------------------------------------------------
+CH0084
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P502']
+CUE_PATTERNS: ['CAUSE_EFFECT']
+CATEGORIES: ['KONSEP']
+CONTENT:
+Perbedaan yang mereka rasakan saat menggunakan kacamata atau
+tidak.
+3.
+Tuliskan hasil wawancara dalam buku tugas.
+4.
+Ceritakanlah hasilnya kepada teman dan guru kalian di sekolah.
+1.
+Bagian mata ada yang berfungsi untuk melindungi mata dan ada juga
+yang berfungsi untuk membantu kita melihat.
+2.
+Bagian-bagian mata yang terlihat meliputi alis, bulu mata, lipatan mata,
+pupil, iris, dan sklera.
+3.
+Bagian-bagian dalam mata meliputi kornea, lensa, retina, otot siliaris,
+dan saraf mata.
+4.
+Pupil dapat membesar dan mengecil sehingga dapat mengatur banyak
+sedikitnya cahaya yang masuk ke dalam mata.
+5.
+Lensa mata dapat menebal dan menipis untuk mengatur fokus cahaya.
+6.
+--------------------------------------------------------------------------------
+CH0085
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P503']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Mata menangkap cahaya yang dipantulkan benda. Kemudian, cahaya
+tersebut dibelokkan oleh kornea dan masuk ke dalam mata melalui
+pupil. Lensa mengatur fokus cahaya sehingga bayangan jatuh di retina
+dan dikirim ke otak.
+7.
+Cara menjaga kesehatan mata di antaranya tidak melihat sinar yang
+terlalu terang dan tidak melihat objek dekat terlalu lama.
+Apa yang Sudah Aku Pelajari?
+--------------------------------------------------------------------------------
+CH0086
+SECTION: CONCEPT
+HEADINGS: ['19', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi', 'Topik C: Bunyi dan Sifatnya']
+BLOCK_IDS: ['P507', 'P508']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION', 'EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI', 'EVALUASI']
+CONTENT:
+Pertanyaan Esensial
+1.
+Bagaimana bunyi merambat?
+2.
+Mengapa ada bunyi keras dan pelan?
+3.
+Apa yang memengaruhi tinggi dan rendahnya suatu bunyi?
+4.
+Apa yang memengaruhi keras dan pelan suatu bunyi?
+5.
+Apakah kita bisa meredam suara?
+Aga, Ian, Mia, Dara, dan Banu sedang berlatih untuk festival sekolah. Mereka
+memainkan alat yang menghasilkan bunyi berbeda-beda. Bisakah kalian
+menebak bunyi yang dihasilkan oleh kelima karakter di atas? Apa sumber
+bunyinya? Setiap alat menghasilkan bunyi yang berbeda-beda. Di kelas 4,
+kalian sudah mempelajari bahwa bunyi berasal dari benda yang bergetar. Lalu,
+bagaimanakah sifat bunyi? Mengapa bunyi beraneka ragam?
+--------------------------------------------------------------------------------
+CH0087
+SECTION: ACTIVITY
+HEADINGS: ['Mari Mencoba']
+BLOCK_IDS: ['P510', 'P511', 'P512']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION', 'FACT_EXPLANATION', 'EXAMPLE_ILLUSTRATION']
+CATEGORIES: ['INSTRUKSI', 'INSTRUKSI', 'INSTRUKSI']
+CONTENT:
+Mencari Tahu Bagaimana Bunyi Merambat
+Jika cahaya merambat lurus, bagaimana cara bunyi merambat, ya? Mari kita
+lakukan percobaan untuk melihat bagaimana bunyi merambat!
+20
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+Percobaan 1
+1.
+Atur posisi di meja seperti pada gambar berikut.
+--------------------------------------------------------------------------------
+CH0088
+SECTION: CONCEPT
+HEADINGS: ['Ketukan benda seperti', 'pensil, sendok', 'dan sebagainya', 'di meja', 'Tempelkan telinga', 'di sisi meja', 'yang berbeda-beda', 'dan cobalah']
+BLOCK_IDS: ['P521']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+dengarkan suaranya
+2.
+Ketukkan benda dengan pelan di tengah meja.
+3.
+Coba berganti posisi atau titik sumber suara (titik untuk mengetukkan
+sendok).
+4.
+Bandingkan perbedaan suara yang terdengar jika kepala diangkat dari
+meja.
+5.
+Tulis hasil pengamatan kalian pada lembar kerja.
+--------------------------------------------------------------------------------
+CH0089
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P522']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Percobaan 2
+1.
+Aturlah posisi dengan teman kalian agar kalian saling membelakangi.
+2.
+Cobalah untuk saling berbicara. Apakah kalian bisa mendengar suara teman
+kalian?
+3.
+Sekarang, cobalah salah satu dari kalian berdiri di luar kelas dan memanggil
+nama teman yang masih dalam posisi duduk. Apakah teman yang dalam
+posisi duduk masih bisa mendengar suara teman yang memanggil di luar
+kelas?
+--------------------------------------------------------------------------------
+CH0090
+SECTION: CONCEPT
+HEADINGS: ['21', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi\n4.\nBerdirilah di halaman sekolah. Suara apa saja yang kalian dengar? Dari\nmana kira-kira sumber suara yang kalian dengar tersebut?\n5.\nTulis hasil pengamatan kalian pada lembar kerja.', 'Percobaan 3']
+BLOCK_IDS: ['P526', 'P527', 'P528', 'P529']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'EXAMPLE_ILLUSTRATION']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+Alat dan bahan:
+1.
+baskom berisi air;
+2.
+botol minuman bekas yang sudah digunting bagian dasarnya (minta
+bantuan guru kalian jika kesulitan mengguntingnya);
+3.
+gunting atau sendok.
+Langkah percobaan:
+1.
+Masukkan botol yang sudah digunting bagian dasarnya ke dalam baskom.
+Atur posisi dan peran kalian seperti pada gambar.
+--------------------------------------------------------------------------------
+CH0091
+SECTION: CONCEPT
+HEADINGS: ['Gunakan mulut botol', 'sebagai tempat', 'untuk mendengar', 'Ambil gunting', 'dan buka tutup']
+BLOCK_IDS: ['P535']
+CUE_PATTERNS: ['PROMPT_INTRO']
+CATEGORIES: ['KONSEP']
+CONTENT:
+gunting di dalam air
+2.
+Gunting bisa juga diganti sendok. Ketukkan sendok di dasar baskom
+sehingga menghasilkan suara.
+3.
+Lepaskan telinga kalian dari mulut botol, lalu bandingkan suara yang
+terdengar.
+4.
+Tulis hasil pengamatan kalian pada lembar kerja.
+5.
+Kemudian, diskusikan secara berkelompok pertanyaan di bawah ini dan
+tulis jawabannya dalam buku tugas.
+a.
+Media apa saja yang bisa merambatkan bunyi dari ketiga percobaan yang
+--------------------------------------------------------------------------------
+CH0092
+SECTION: CONCEPT
+HEADINGS: ['telah dilakukan? (Petunjuk: perhatikan perantara yang menghubungkan']
+BLOCK_IDS: ['P537']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+sumber suara dengan telinga kalian)
+b.
+Di antara ketiga percobaan yang telah dilakukan, mana menurut kalian
+media yang paling baik merambatkan bunyi? (suara terdengar lebih
+--------------------------------------------------------------------------------
+CH0093
+SECTION: CONCEPT
+HEADINGS: ['keras dan jelas)']
+BLOCK_IDS: ['P539']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+22
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+c.
+Dari percobaan 1 dan 2, menurut kalian kemana saja arah bunyi
+--------------------------------------------------------------------------------
+CH0094
+SECTION: CONCEPT
+HEADINGS: ['bergerak?(Petunjuk: pada Topik A kalian melihat bahwa cahaya', 'bergerak lurus, lalu bagaimana dengan bunyi?)', 'Sifat Bunyi', 'Tahukah kalian apa itu garpu tala? Alat ini', 'dipakai untuk menyelaraskan nada. Saat', 'dipukul dengan keras, garpu tala akan', 'bergetar dalam waktu cukup lama. Jika garpu', 'tala yang bergetar ini disentuhkan dengan', 'air, kita bisa melihat gelombang air bergerak']
+BLOCK_IDS: ['P549']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+ke semua arah. Hal ini membuktikan bahwa
+bunyi bergerak ke segala arah.
+--------------------------------------------------------------------------------
+CH0095
+SECTION: CONCEPT
+HEADINGS: ['Percobaan sederhana ini membuktikan', 'bahwa bunyi bergerak ke segala arah. Kalian', 'bisa mendengar suara bel sekolah tanpa', 'melihat bendanya. Seluruh penghuni sekolah']
+BLOCK_IDS: ['P554']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+yang berada di ruangan yang berbeda-beda
+juga akan mendengar suara bel sekolah.
+--------------------------------------------------------------------------------
+CH0096
+SECTION: CONCEPT
+HEADINGS: ['Berbeda', 'dengan', 'cahaya,']
+BLOCK_IDS: ['P558']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+suara
+membutuhkan medium untuk merambat.
+--------------------------------------------------------------------------------
+CH0097
+SECTION: CONCEPT
+HEADINGS: ['Bunyi bisa merambat melalui benda padat,', 'cair, dan gas. Benda padat merupakan']
+BLOCK_IDS: ['P561']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+medium paling baik dalam merambatkan
+bunyi.
+--------------------------------------------------------------------------------
+CH0098
+SECTION: CONCEPT
+HEADINGS: ['Hal', 'ini', 'karena', 'partikel-partikel']
+BLOCK_IDS: ['P566', 'P567']
+CUE_PATTERNS: ['CAUSE_EFFECT', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+penyusun pada benda padat lebih berdekatan
+sehingga lebih cepat menghantarkan bunyi.
+Gambar 1.21 Garpu tala yang
+bergetar dimasukkan ke dalam air.
+Gambar 1.22 Pantulan Suara.
+--------------------------------------------------------------------------------
+CH0099
+SECTION: GLOSSARY
+HEADINGS: []
+BLOCK_IDS: ['P568']
+CUE_PATTERNS: ['GLOSSARY_BOX']
+CATEGORIES: ['GLOSARIUM']
+CONTENT:
+nada: tinggi rendahnya bunyi
+gema: bunyi pantulan yang terdengar kembali setelah sumber bunyi selesai
+--------------------------------------------------------------------------------
+CH0100
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P569']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+(terjadi di area yang luas)
+gaung: bunyi pantulan yang terdengar kembali sebelum sumber bunyi
+--------------------------------------------------------------------------------
+CH0101
+SECTION: ACTIVITY
+HEADINGS: ['selesai bersuara (terjadi di area yang kecil)', 'Kosakata Baru', '23', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi\nTahukah kalian bahwa suara juga bisa dipantulkan? Saat menabrak benda\nyang keras, seperti batu, tembok, dan lantai, suara akan memantul kembali ke\narah sumber suara. Pantulan suara ini disebut gema atau gaung. Pernahkah\nkalian mendengarnya?\nSebaliknya, benda-benda yang lunak, seperti busa, bantal, karpet, dan\nkain akan menyerap suara. Menurut kalian mengapa kita tidak mendengarkan\ngaung/gema di dalam rumah yang ditinggali/di rumah yang terdapat banyak\nperabotan?', 'Lakukan Bersama']
+BLOCK_IDS: ['P575', 'P576', 'P577', 'P578', 'P579', 'P580']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'EVALUATIVE_QUESTION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['INSTRUKSI', 'INSTRUKSI', 'INSTRUKSI', 'INSTRUKSI', 'INSTRUKSI', 'INSTRUKSI']
+CONTENT:
+Mengamati Hasil Bunyi yang Berbeda-beda
+Setiap bunyi pasti memiliki karakter atau sifat yang berbeda. Antarsenar gitar saja
+bisa menghasilkan bunyi yang berbeda-beda. Perbedaan tersebut ditentukan
+dari tinggi rendah serta keras atau pelannya bunyi. Bagaimana maksudnya?
+Yuk, kita coba lakukan percobaan berikut untuk mengamatinya secara langsung
+Alat dan bahan:
+1.
+botol plastik dengan ukuran dan bentuk yang sama 5 buah;
+2.
+air secukupnya;
+3.
+pewarna makanan (jika ada);
+4.
+spidol;
+5.
+kertas.
+--------------------------------------------------------------------------------
+CH0102
+SECTION: CONCEPT
+HEADINGS: ['Percobaan 1']
+BLOCK_IDS: ['P582', 'P583']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+Langkah percobaan:
+1.
+Gunakan spidol atau kertas dan beri label botol plastik dengan tulisan A, B,
+C, D, dan E.
+2.
+Isi botol dengan air. Botol A berisi air paling sedikit dan botol E berisi air
+paling banyak.
+3.
+Jika ada, gunakan pewarna makanan yang berbeda untuk setiap botol.
+Fungsinya agar kalian bisa melihat perbedaan botol dengan lebih jelas.
+4.
+Pertama-tama, tiuplah bagian mulut botol A dan dengarkan nada yang
+dihasilkan.
+24
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+Ketika kalian meniupkan udara ke mulut botol, udara di dalam botol akan
+akan bergetar dan menghasilkan suara.
+5.
+Ulangi tahap 4 dengan botol B sampai botol E.
+6.
+Pastikan kalian meniup dengan kekuatan yang sama untuk semua botol.
+7.
+Tuliskan hasil pengamatan kalian dalam tabel di lembar kerja. Gunakan
+skala 1-5 untuk menggambarkan tinggi rendahnya nada yang dihasilkan.
+Di mana skala 1 untuk nada terendah dan skala 5 untuk nada tertinggi.
+--------------------------------------------------------------------------------
+CH0103
+SECTION: CONCEPT
+HEADINGS: ['Percobaan 2']
+BLOCK_IDS: ['P585']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+Langkah percobaan:
+1.
+Lakukan hal yang sama dengan percobaan 1, namun sekarang cobalah tiup
+dengan lebih kuat.
+2.
+Apa perbedaan yang kalian dengar? Apakah nadanya berubah? Tulislah
+hasil pengamatan kalian pada lembar kerja.
+--------------------------------------------------------------------------------
+CH0104
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P586', 'P587']
+CUE_PATTERNS: ['EXAMPLE_ILLUSTRATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+Tinggi Rendah Bunyi
+Bunyi dari sebuah benda berubah bergantung pada seberapa cepat benda
+tersebut bergetar. Ketika benda bergetar sangat cepat maka akan timbul bunyi
+yang tinggi, contohnya suara peluit dan kicau burung.
+Gambar 1.23 Kelima botol berisi air dengan ketinggian air yang berlainan.
+--------------------------------------------------------------------------------
+CH0105
+SECTION: CONCEPT
+HEADINGS: ['25', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi\nSebaliknya, benda yang bergetar dengan lambat akan menimbulkan bunyi\nyang rendah. Contohnya suara anjing menggonggong, drum, dan detak jantung\nkalian.\nGambar 1.24 Contoh benda yang bergetar lambat.\nSuara orang dewasa terdengar lebih rendah dibanding anak-anak. Hal ini\nkarena pita suara akan bertambah panjang dan besar ketika kita dewasa. Oleh\nkarena itu, pita suara akan bergetar lebih lambat dan menghasilkan nada yang\nlebih rendah dibanding suara kita saat masih kecil.\nKita bisa mengatur tinggi rendah sebuah bunyi dengan membuat benda\nbergetar lebih cepat atau lebih lambat.', 'Alat musik memiliki tinggi', 'rendah nada yang', 'bervariasi. Pada xilofon,', 'semakin panjang batang', 'kayu, maka semakin']
+BLOCK_IDS: ['P595']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+rendah suara yang
+dihasilkan.
+--------------------------------------------------------------------------------
+CH0106
+SECTION: CONCEPT
+HEADINGS: ['Tuner senar berfungsi untuk', 'mengencangkan atau melonggarkan', 'senar gitar. Semakin dikencangkan,', 'senar gitar akan bergetar semakin', 'cepat dan menghasilkan suara yang', 'tinggi. Jika dilonggarkan, senar gitar']
+BLOCK_IDS: ['P602']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+akan menghasilkan getaran yang
+lambat dan suara yang rendah.
+Gambar 1.25 Xilofon memiliki tinggi rendah nada yang bervariasi dan perubahan senar gitar
+memengaruhi bunyi yang dihasilkan.
+Apakah kalian bisa menjelaskan cara mengatur tinggi rendah bunyi pada
+alat musik suling?
+--------------------------------------------------------------------------------
+CH0107
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P603']
+CUE_PATTERNS: ['FACT_EXPLANATION']
+CATEGORIES: ['KONSEP']
+CONTENT:
+26
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+--------------------------------------------------------------------------------
+CH0108
+SECTION: CONCEPT
+HEADINGS: ['Intensitas bunyi', 'Intensitas bunyi adalah seberapa keras sebuah', 'bunyi terbentuk. Suara yang keras, seperti', 'petir memiliki intensitas yang tinggi. Suara', 'yang pelan, seperti suara orang berbisik atau', 'suara senandung musik memiliki intensitas', 'yang rendah. Bisakah kalian mencari contoh']
+BLOCK_IDS: ['P611']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+lain untuk bunyi yang memiliki intensitas tinggi
+dan rendah?
+Intensitas berbeda dengan tinggi rendah bunyi. Suling yang ditiup pelan
+tetap menghasilkan bunyi yang tinggi, namun memiliki intensitas yang rendah.
+--------------------------------------------------------------------------------
+CH0109
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P612', 'P613']
+CUE_PATTERNS: ['FACT_EXPLANATION', 'FACT_EXPLANATION']
+CATEGORIES: ['KONSEP', 'KONSEP']
+CONTENT:
+Gambar 1.27 Intensitas bunyi pada suling dan gitar.
+Senar gitar yang paling tebal menghasilkan bunyi yang rendah. Namun, jika
+dipetik dengan kuat akan menghasilkan intensitas yang tinggi.
+Kita bisa mengubah intensitas suara dengan mengatur gaya yang diberikan
+untuk membuat benda bergetar.
+Gambar 1.28 Pukulan drum akan memengaruhi intensitas bunyi.
+Gambar 1.26 Suara petir memiliki
+intensitas yang tinggi.
+--------------------------------------------------------------------------------
+CH0110
+SECTION: CONCEPT
+HEADINGS: ['27', 'Bab 1 | Melihat karena Cahaya, Mendengar karena Bunyi', 'Mari Refleksikan\n1.\nHal menarik apa yang kalian dapatkan pada topik kali ini?\n2.\nApa perbedaan rambatan pada bunyi dan cahaya?\n3.\nMengapa kita tidak selalu mendengar gema/gaung walaupun ada benda\npadat, seperti tembok di sekitar kita?\n4.\nApa yang memengaruhi jenis-jenis bunyi?\n5.\nBagaimana kita bisa mengubah nada dan intensitas dari bunyi?', 'Belajar Lebih Lanjut', 'Gangguan Penglihatan pada Manusia', 'Beberapa hewan, seperti kelelawar, lumba-lumba, dan paus menggunakan', 'kemampuan yang disebut ekolokasi untuk mendeteksi musuh, menentukan']
+BLOCK_IDS: ['P621', 'P622', 'P623']
+CUE_PATTERNS: ['NARRATIVE_SEQUENCE', 'FACT_EXPLANATION', 'DEFINITION']
+CATEGORIES: ['KONSEP', 'KONSEP', 'KONSEP']
+CONTENT:
+arah, menghindari bahaya, mencari makanan, serta berkomunikasi. Ekolokasi
+menggunakan sifat suara. Suara yang dikeluarkan akan memantul saat bertemu
+objek atau permukaan. Kemudian, suara pantulan ini akan digunakan oleh
+hewan sebagai informasi mengenai musuh, makanan, dan lain-lain. Manusia
+tidak memiliki kemampuan untuk mendengarkan suara ini.
+Gambar 1.29 Kelelawar memiliki kemampuan ekolokasi.
+28
+Ilmu Pengetahuan Alam dan Sosial untuk SD Kelas V
+Kemampuan ekolokasi ini dipelajari oleh manusia untuk menciptakan
+berbagai macam teknologi, di antaranya ultrasonografi dan alat pengukur
+kedalaman laut. Ultrasonografi atau USG adalah alat yang biasa dipakai oleh
+dokter untuk melakukan pemeriksaan bagian dalam tubuh kita.
+Gambar 1.30 Ekolokasi dimanfaatkan untuk mengukur kedalaman laut.
+1.
+Bunyi dihasilkan oleh benda yang bergetar dan merambat ke segala arah.
+2.
+Bunyi bisa merambat melalui benda padat, cair, dan gas.
+3.
+Bunyi bisa dipantulkan oleh benda-benda keras, seperti tembok, batu,
+dan sebagainya. Namun, bunyi bisa juga diredam oleh benda-benda
+lunak, seperti busa, bantal, karpet, dan sebagainya.
+4.
+Tinggi rendah bunyi dipengaruhi oleh seberapa cepat benda tersebut
+bergetar. Kita bisa mengatur tinggi rendah bunyi dengan membuat
+benda bergetar lebih cepat atau lebih lambat.
+5.
+Seberapa keras bunyi dihasilkan disebut intensitas. Kita bisa mengatur
+--------------------------------------------------------------------------------
+CH0111
+SECTION: CONCEPT
+HEADINGS: []
+BLOCK_IDS: ['P624']
+CUE_PATTERNS: ['EVALUATIVE_QUESTION']
+CATEGORIES: ['EVALUASI']
+CONTENT:
+intensitas bunyi dengan memperbesar atau memperkecil gaya yang
+diberikan kepada benda.
+Apa yang Sudah Aku Pelajari?
+--------------------------------------------------------------------------------
