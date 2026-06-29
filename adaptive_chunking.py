@@ -1,29 +1,15 @@
-"""
-Rule-based Adaptive Chunking (Function- & Structure-aware) for SD textbooks (Kelas 5)
-
-Fixes included:
-1) CP_GLOSSARY for "Kosakata Baru" (NOT activity/instruction)
-2) Better numbered line handling: headings vs steps vs numbered questions
-3) Reflection question lists become EVALUASI
-4) Activity context can UNLOCK when content cues appear
-5) Avoid mutating LabeledBlock
-6) Tighter heading detection
-7) Merge split-step / split-question blocks using continuation heuristic:
-   - If previous block is INSTRUKSI and current looks like continuation => force INSTRUKSI
-   - If previous block is EVALUASI and current looks like continuation => force EVALUASI
-8) Optional: filter obvious book boilerplate/metadata (ISBN, Kementerian, etc.) as CP_META
-"""
-
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import List, Dict, Optional
 import re
+from section_heading_config import (
+    build_section_split_regex,
+    get_all_section_headings,
+    get_section_mode,
+    is_section_heading,
+)
 
-
-# =============================
-# 1) DATA STRUCTURES
-# =============================
-
+#Struktur Data
 @dataclass
 class Block:
     id: str
@@ -56,10 +42,9 @@ class Chunk:
         return "\n".join(self.texts)
 
 
-# =============================
-# 2) CUE PATTERNS
-# =============================
+#Discourse Marker
 CP_HEADING = "NEW_SUBTOPIC_HEADING"
+CP_SECTION = "SECTION_HEADING"
 CP_IMPERATIVE = "IMPERATIVE_TASK"
 CP_EVALUATIVE = "EVALUATIVE_QUESTION"
 CP_DEFINITION = "DEFINITION"
@@ -71,10 +56,6 @@ CP_INTRO = "PROMPT_INTRO"
 CP_GLOSSARY = "GLOSSARY_BOX"
 CP_META = "BOOK_META"
 
-
-# =============================
-# 3) NORMALIZATION + LEXICAL LISTS
-# =============================
 
 def normalize_text(t: str) -> str:
     t = (t or "").replace("\u00a0", " ")
@@ -97,9 +78,10 @@ EVAL_TRIGGERS = {
     "jawablah", "isilah", "pasangkan", "urutkan", "pilihlah",
     "lengkapilah", "teka-teki silang", "diagram venn",
     "refleksikan", "refleksi", "mari refleksikan", "mari refleksi",
-    "evaluasi", "penilaian",
+    "evaluasi", "penilaian", "apa yang sudah aku pelajari"
 }
 
+#Pembuka topik
 PROMPT_WORDS = {
     "tahukah", "yuk", "mari", "pernahkah", "selamat belajar", "masih ingat"
 }
@@ -132,10 +114,6 @@ STEP_PREFIXES = (
 
 CONTENT_CUES = {CP_DEFINITION, CP_CAUSE_EFFECT, CP_EXAMPLE, CP_NARRATIVE, CP_FACT, CP_INTRO}
 
-
-# =============================
-# 4) HELPERS
-# =============================
 
 def looks_like_book_meta(t: str) -> bool:
     tl = normalize_text(t).lower()
@@ -170,6 +148,14 @@ def is_numbered_line(t: str) -> bool:
 
 def strip_number_prefix(t: str) -> str:
     return re.sub(r"^\s*\d+\.\s*", "", t).strip()
+
+
+def is_alpha_list_line(t: str) -> bool:
+    return bool(re.match(r"^\s*[a-z]\.\s+", t))
+
+
+def strip_alpha_prefix(t: str) -> str:
+    return re.sub(r"^\s*[a-z]\.\s*", "", t).strip()
 
 
 def looks_like_numbered_question(t: str) -> bool:
@@ -252,7 +238,13 @@ def is_heading_text(t: str) -> bool:
     if not t:
         return False
 
+    if is_section_heading(t):
+        return True
+
     if re.match(r"^\s*(bab|topik)\s+\w+", tl):
+        return True
+
+    if re.match(r"^\s*[A-Z]\.\s+\S+", t):
         return True
 
     if any(tl.startswith(h) for h in GLOSSARY_HEADINGS):
@@ -264,13 +256,32 @@ def is_heading_text(t: str) -> bool:
     if is_numbered_line(t):
         return numbered_line_is_heading(t)
 
-    short = len(t.split()) <= 6 and not re.search(r"[.!?]$", t)
-    has_definition_word = bool(re.search(r"\b(adalah|merupakan|yaitu|disebut)\b", tl))
+    if len(t.split()) == 1:
+        return False
+
+    short = 1 < len(t.split()) <= 6 and not re.search(r"[.!?]$", t)
+    has_definition_word = bool(re.search(r"\b(adalah|merupakan|yaitu|disebut|karena|sehingga|dengan|setelah|ketika|jika|untuk)\b", tl))
     has_question = "?" in t
-    if short and not has_definition_word and not has_question:
+    starts_like_sentence = tl.startswith(("dan ", "atau ", "karena ", "sehingga ", "sekarang,", "pada ", "dalam "))
+    if short and not has_definition_word and not has_question and not starts_like_sentence:
         return True
 
     return False
+
+
+def looks_like_instruction_intro(t: str) -> bool:
+    tl = normalize_text(t).lower()
+    if not tl:
+        return False
+    patterns = [
+        r"\blakukan langkah[- ]langkah\b",
+        r"\bikuti langkah[- ]langkah\b",
+        r"\bpetunjuk di bawah ini\b",
+        r"\bkegiatan berikut\b",
+        r"\blangkah berikut\b",
+        r"\bsebelum melakukan\b",
+    ]
+    return any(re.search(p, tl) for p in patterns)
 
 
 def looks_like_evaluative(t: str) -> bool:
@@ -283,45 +294,179 @@ def looks_like_evaluative(t: str) -> bool:
 
 
 def looks_like_continuation(prev_text: str, cur_text: str) -> bool:
-    """
-    Detect if cur_text is likely a continuation of prev_text (PDF extraction split).
-    Common signs:
-    - prev doesn't end with strong punctuation
-    - cur starts with lowercase / continuation word
-    - cur is relatively short fragment
-    """
     prev = normalize_text(prev_text)
     cur = normalize_text(cur_text)
     if not prev or not cur:
         return False
 
-    # prev ends with punctuation => less likely continuation
     if re.search(r"[.!?…:]$", prev):
         return False
 
     cur_l = cur.lstrip()
-    # starts with lowercase letter
     starts_lower = bool(re.match(r"^[a-z]", cur_l))
-    # or starts with continuation connectors
     starts_connector = cur_l.lower().startswith((
         "dan ", "atau ", "serta ", "yang ", "hasil ", "kemudian", "lalu", "setelah", "karena", "sehingga"
     ))
 
-    shortish = len(cur.split()) <= 25  # continuation fragments are often short
-
+    shortish = len(cur.split()) <= 25 
     return (starts_lower or starts_connector) and shortish
 
 
-# =============================
-# 6) CUE PATTERN DETECTION
-# =============================
+def section_mode(section_heading: Optional[str]) -> Optional[str]:
+    if not section_heading:
+        return None
+    mode = get_section_mode(section_heading)
+    if mode == "GENERAL":
+        return None
+    return mode
+
+
+def numbered_line_is_title_like(t: str) -> bool:
+    t_norm = normalize_text(t)
+    if not is_numbered_line(t_norm):
+        return False
+
+    after = strip_number_prefix(t_norm)
+    lower = after.lower()
+    words = after.split()
+    if not (2 <= len(words) <= 5):
+        return False
+    if re.search(r"[!?]$", after):
+        return False
+    if starts_with_imperative(after):
+        return False
+    if re.search(r"\b(adalah|merupakan|yaitu|disebut|karena|sehingga|ketika|setelah|sebelum|jika|untuk|dengan)\b", lower):
+        return False
+    if lower.startswith(("dan ", "atau ", "karena ", "sehingga ", "sekarang,", "pada ", "dalam ")):
+        return False
+    return after[:1].isupper()
+
+
+ROMAN_MAP = {
+    "I": 1,
+    "II": 2,
+    "III": 3,
+    "IV": 4,
+    "V": 5,
+    "VI": 6,
+    "VII": 7,
+    "VIII": 8,
+    "IX": 9,
+    "X": 10,
+}
+
+
+def parse_chapter_heading(text: str) -> tuple[Optional[str], Optional[int]]:
+    t = normalize_text(text)
+    m = re.search(r"\bBab\s+([0-9IVX]+)\b", t, flags=re.IGNORECASE)
+    if not m:
+        return None, None
+
+    raw = m.group(1).upper()
+    if raw.isdigit():
+        num = int(raw)
+    else:
+        num = ROMAN_MAP.get(raw)
+
+    if num is None:
+        return None, None
+
+    return f"Bab {num}", num
+
+
+
+
+SECTION_SPLIT_RE = build_section_split_regex(get_all_section_headings())
+
+
+def split_blocks_on_sections(blocks: List[Block]) -> List[Block]:
+    out: List[Block] = []
+    for b in blocks:
+        text = normalize_text(b.text)
+        if not text:
+            continue
+
+        parts = SECTION_SPLIT_RE.split(text)
+        if len(parts) == 1:
+            out.append(b)
+            continue
+
+        buf = ""
+        idx = 0
+        piece_no = 1
+
+        while idx < len(parts):
+            chunk_raw = parts[idx]
+            if chunk_raw is None:
+                idx += 1
+                continue
+
+            chunk = chunk_raw.strip()
+            if not chunk:
+                idx += 1
+                continue
+
+            if is_section_heading(chunk):
+                if buf.strip():
+                    out.append(Block(
+                        id=f"{b.id}_a{piece_no}",
+                        text=buf.strip(),
+                        block_type=b.block_type,
+                        meta=b.meta,
+                    ))
+                    piece_no += 1
+                    buf = ""
+
+                out.append(Block(
+                    id=f"{b.id}_s{piece_no}",
+                    text=chunk.strip(),
+                    block_type="heading",
+                    meta={"heading_role": "section_heading"},
+                ))
+                piece_no += 1
+            else:
+                if buf:
+                    buf += " " + chunk
+                else:
+                    buf = chunk
+
+            idx += 1
+
+        if buf.strip():
+            out.append(Block(
+                id=f"{b.id}_a{piece_no}",
+                text=buf.strip(),
+                block_type=b.block_type,
+                meta=b.meta,
+            ))
+
+    return out
+
 
 def detect_cue_pattern(block: Block) -> str:
     t = normalize_text(block.text)
     tl = t.lower()
 
-    # if "kosakata baru" in tl:
-    #     return CP_GLOSSARY
+    tl_norm = re.sub(r"\s+", " ", tl)
+
+    heading_role = (block.meta or {}).get("heading_role")
+    if heading_role == "section_heading":
+        if "kosakata baru" in tl:
+            return CP_GLOSSARY
+        return CP_SECTION
+
+    if heading_role == "content_heading":
+        return CP_HEADING
+
+    if looks_like_evaluative(t) and len(tl_norm.split()) <= 10:
+        return CP_EVALUATIVE
+
+    if "kosakata baru" in tl:
+        return CP_GLOSSARY
+    
+    if re.search(r"(^|\n)\s*[^:\n]{2,40}\s*:\s+\S+", t):
+        if len(t) <= 400:
+            return CP_GLOSSARY
 
     if looks_like_book_meta(t):
         return CP_META
@@ -330,7 +475,7 @@ def detect_cue_pattern(block: Block) -> str:
         if any(tl.startswith(h) for h in GLOSSARY_HEADINGS):
             return CP_GLOSSARY
 
-        if "refleksikan" in tl or "refleksi" in tl:
+        if looks_like_evaluative(t):
             return CP_EVALUATIVE
 
         if any(tl.startswith(h) for h in ACTIVITY_HEADINGS):
@@ -340,6 +485,14 @@ def detect_cue_pattern(block: Block) -> str:
             return CP_EVALUATIVE
 
         return CP_HEADING
+    
+    if re.match(r"^\s*\d+\.\s+", t):
+        after = re.sub(r"^\s*\d+\.\s+", "", tl_norm)
+        first_word = after.split(" ", 1)[0] if after else ""
+        if first_word not in IMPERATIVE_VERBS:
+            if "?" not in t:
+                return CP_EVALUATIVE
+
 
     if is_numbered_line(t) and not numbered_line_is_heading(t):
         if looks_like_numbered_question(t):
@@ -350,7 +503,7 @@ def detect_cue_pattern(block: Block) -> str:
         if looks_like_evaluative(t):
             return CP_EVALUATIVE
         return CP_IMPERATIVE
-
+    
     if looks_like_evaluative(t):
         return CP_EVALUATIVE
 
@@ -373,16 +526,18 @@ def detect_cue_pattern(block: Block) -> str:
 
 
 def cue_to_category(cue: str) -> str:
+    if cue == CP_SECTION:
+        return "SECTION"
     if cue == CP_IMPERATIVE:
         return "INSTRUKSI"
     if cue == CP_EVALUATIVE:
         return "EVALUASI"
     if cue == CP_NARRATIVE:
         return "NARASI"
-    if cue == CP_GLOSSARY:
-        return "KONSEP"
     if cue == CP_META:
         return "META"
+    if cue == CP_GLOSSARY:
+        return "GLOSARIUM"
     return "KONSEP"
 
 
@@ -403,14 +558,13 @@ def label_blocks(blocks: List[Block]) -> List[LabeledBlock]:
         )
     return out
 
-
-# =============================
-# 7) CHUNK BOUNDARY RULES
-# =============================
-
+#Context State
 def should_start_new_chunk(prev: Optional[LabeledBlock], cur: LabeledBlock) -> bool:
     if prev is None:
         return True
+
+    if prev.category == "GLOSARIUM" or cur.category == "GLOSARIUM":
+        return prev.category != cur.category
 
     if prev.category == "INSTRUKSI" and cur.category == "INSTRUKSI":
         return False
@@ -424,29 +578,49 @@ def should_start_new_chunk(prev: Optional[LabeledBlock], cur: LabeledBlock) -> b
     return False
 
 
-# =============================
-# 8) BUILD CHUNKS
-# =============================
-
+#
 def build_chunks(labeled: List[LabeledBlock], skip_meta_blocks: bool = True) -> List[Chunk]:
     chunks: List[Chunk] = []
 
-    current_activity: Optional[str] = None  # None | INSTRUKSI | EVALUASI
+    current_activity: Optional[str] = None  
+    active_chapter: Optional[str] = None
+    active_chapter_number: Optional[int] = None
+    active_section_heading: Optional[str] = None
+    active_content_heading: Optional[str] = None
 
     current_texts: List[str] = []
     current_ids: List[str] = []
     current_cues: List[str] = []
     current_cats: List[str] = []
-    current_meta: Dict = {"headings": []}
+    current_meta: Dict = {"headings": [], "section_heading": None, "content_heading": None}
 
     last_effective: Optional[LabeledBlock] = None
     last_text_in_chunk: str = ""
     chunk_counter = 1
 
+    in_glossary_chunk = False
+
+    def fresh_meta() -> Dict:
+        headings = []
+        if active_chapter:
+            headings.append(active_chapter)
+        if active_section_heading:
+            headings.append(active_section_heading)
+        if active_content_heading:
+            headings.append(active_content_heading)
+        return {
+            "headings": headings,
+            "chapter": active_chapter,
+            "chapter_number": active_chapter_number,
+            "section_heading": active_section_heading,
+            "content_heading": active_content_heading,
+        }
+
     def flush():
         nonlocal chunk_counter, current_texts, current_ids, current_cues, current_cats, current_meta
-        nonlocal last_effective, last_text_in_chunk
+        nonlocal last_effective, last_text_in_chunk, in_glossary_chunk
         if not current_texts:
+            in_glossary_chunk = False
             return
         chunks.append(
             Chunk(
@@ -460,26 +634,145 @@ def build_chunks(labeled: List[LabeledBlock], skip_meta_blocks: bool = True) -> 
         )
         chunk_counter += 1
         current_texts, current_ids, current_cues, current_cats = [], [], [], []
-        current_meta = {"headings": []}
+        current_meta = fresh_meta()
         last_effective = None
         last_text_in_chunk = ""
+        in_glossary_chunk = False
 
     for lb in labeled:
         if skip_meta_blocks and lb.cue_pattern == CP_META:
             continue
 
-        # Headings become metadata (not content)
-        if lb.cue_pattern == CP_HEADING:
+        if in_glossary_chunk and lb.cue_pattern != CP_GLOSSARY:
             flush()
-            current_activity = None
-            current_meta["headings"].append(lb.text)
+
+        if lb.cue_pattern == CP_SECTION:
+            flush()
+            current_activity = section_mode(lb.text)
+            active_section_heading = lb.text
+            active_content_heading = None
+            current_meta = fresh_meta()
             continue
 
-        # Glossary is content, but unlock activity mode
-        if lb.cue_pattern == CP_GLOSSARY:
-            current_activity = None
+        if is_numbered_line(lb.text):
+            sec_mode = section_mode(active_section_heading)
+            if looks_like_numbered_question(lb.text):
+                lb = LabeledBlock(
+                    id=lb.id,
+                    text=lb.text,
+                    block_type=lb.block_type,
+                    cue_pattern=CP_EVALUATIVE,
+                    category="EVALUASI",
+                    meta=lb.meta,
+                )
+            elif starts_with_imperative(strip_number_prefix(lb.text)):
+                lb = LabeledBlock(
+                    id=lb.id,
+                    text=lb.text,
+                    block_type=lb.block_type,
+                    cue_pattern=CP_IMPERATIVE,
+                    category="INSTRUKSI",
+                    meta=lb.meta,
+                )
+            elif numbered_line_is_title_like(lb.text):
+                if current_texts:
+                    flush()
+                current_activity = None
+                active_content_heading = normalize_text(lb.text)
+                current_meta = fresh_meta()
+                continue
+            elif sec_mode == "EVALUASI":
+                lb = LabeledBlock(
+                    id=lb.id,
+                    text=lb.text,
+                    block_type=lb.block_type,
+                    cue_pattern=CP_EVALUATIVE,
+                    category="EVALUASI",
+                    meta=lb.meta,
+                )
+            elif sec_mode == "INSTRUKSI":
+                lb = LabeledBlock(
+                    id=lb.id,
+                    text=lb.text,
+                    block_type=lb.block_type,
+                    cue_pattern=CP_IMPERATIVE,
+                    category="INSTRUKSI",
+                    meta=lb.meta,
+                )
 
-        # Lock/unlock activity context
+        if is_alpha_list_line(lb.text):
+            sec_mode = section_mode(active_section_heading)
+            alpha_text = strip_alpha_prefix(lb.text)
+            if "?" in lb.text or looks_like_evaluative(alpha_text):
+                lb = LabeledBlock(
+                    id=lb.id,
+                    text=lb.text,
+                    block_type=lb.block_type,
+                    cue_pattern=CP_EVALUATIVE,
+                    category="EVALUASI",
+                    meta=lb.meta,
+                )
+            elif starts_with_imperative(alpha_text) or current_activity == "INSTRUKSI" or sec_mode == "INSTRUKSI":
+                lb = LabeledBlock(
+                    id=lb.id,
+                    text=lb.text,
+                    block_type=lb.block_type,
+                    cue_pattern=CP_IMPERATIVE,
+                    category="INSTRUKSI",
+                    meta=lb.meta,
+                )
+            elif sec_mode == "EVALUASI":
+                lb = LabeledBlock(
+                    id=lb.id,
+                    text=lb.text,
+                    block_type=lb.block_type,
+                    cue_pattern=CP_EVALUATIVE,
+                    category="EVALUASI",
+                    meta=lb.meta,
+                )
+
+        if lb.cue_pattern == CP_HEADING:
+            chapter_label, chapter_number = parse_chapter_heading(lb.text)
+            if current_texts:
+                flush()
+            current_activity = None
+            if chapter_label:
+                active_chapter = chapter_label
+                active_chapter_number = chapter_number
+                active_content_heading = None
+            else:
+                active_content_heading = lb.text
+            current_meta = fresh_meta()
+            continue
+
+        if lb.cue_pattern == CP_GLOSSARY:
+            if not in_glossary_chunk:
+                if current_texts:
+                    flush()
+                current_activity = None
+                in_glossary_chunk = True
+
+            effective_lb = LabeledBlock(
+                id=lb.id,
+                text=lb.text,
+                block_type=lb.block_type,
+                cue_pattern=CP_GLOSSARY,
+                category="GLOSARIUM",
+                meta=lb.meta,
+            )
+
+            current_texts.append(effective_lb.text)
+            current_ids.append(effective_lb.id)
+            current_cues.append(effective_lb.cue_pattern)
+            current_cats.append(effective_lb.category)
+
+            if effective_lb.meta:
+                current_meta.setdefault("blocks_meta", []).append({effective_lb.id: effective_lb.meta})
+
+            last_effective = effective_lb
+            last_text_in_chunk = effective_lb.text
+            continue
+
         if lb.cue_pattern == CP_IMPERATIVE:
             current_activity = "INSTRUKSI"
         elif lb.cue_pattern == CP_EVALUATIVE:
@@ -490,7 +783,6 @@ def build_chunks(labeled: List[LabeledBlock], skip_meta_blocks: bool = True) -> 
         forced_cue = lb.cue_pattern
         forced_cat = lb.category
 
-        # --- Continuation heuristic (THE KEY FIX for your CH0036 & CH0038) ---
         if last_effective is not None and looks_like_continuation(last_text_in_chunk, lb.text):
             if last_effective.category == "INSTRUKSI":
                 forced_cue = CP_IMPERATIVE
@@ -499,13 +791,17 @@ def build_chunks(labeled: List[LabeledBlock], skip_meta_blocks: bool = True) -> 
                 forced_cue = CP_EVALUATIVE
                 forced_cat = "EVALUASI"
 
-        # Merge split-step blocks in INSTRUKSI mode (even if "kemudian" triggers narrative)
         if current_activity == "INSTRUKSI":
-            if forced_cue in (CP_NARRATIVE, CP_FACT, CP_INTRO) and contains_imperative_anywhere(lb.text):
+            if forced_cue in (CP_NARRATIVE, CP_FACT, CP_INTRO) and (
+                contains_imperative_anywhere(lb.text) or looks_like_instruction_intro(lb.text)
+            ):
                 forced_cue = CP_IMPERATIVE
                 forced_cat = "INSTRUKSI"
 
-        # Keep evaluasi if looks question-ish in evaluasi mode
+            if forced_cue in (CP_FACT, CP_INTRO) and looks_like_continuation(last_text_in_chunk, lb.text):
+                forced_cue = CP_IMPERATIVE
+                forced_cat = "INSTRUKSI"
+
         if current_activity == "EVALUASI":
             if forced_cue in (CP_FACT, CP_INTRO) and ("?" in lb.text or looks_like_evaluative(lb.text)):
                 forced_cue = CP_EVALUATIVE
@@ -541,11 +837,6 @@ def build_chunks(labeled: List[LabeledBlock], skip_meta_blocks: bool = True) -> 
 
     flush()
     return chunks
-
-
-# =============================
-# OPTIONAL: debug printer
-# =============================
 
 def print_chunks(chunks: List[Chunk]) -> None:
     for ch in chunks:

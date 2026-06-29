@@ -4,12 +4,40 @@ venv/
 # Python cache
 __pycache__/
 *.pyc
+.pytest_cache/
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # IDE
 .vscode/
 
 # OS files
 .DS_Store
+Thumbs.db
+
+# Local database and app instance
+instance/
+*.db
+
+# Generated RAG indexes and stores
+*.index
+rag_store.json
+ipas_store.json
+indexes/
+
+# Generated chunks and outputs
+out/
+chunks.jsonl
+chunks.txt
+
+# Uploaded/user-provided files
+uploads/
+data/**/*.pdf
+
+# Evaluation outputs and temporary artifacts
+evaluation/results/
+tmp_proposal*
+*.zip
